@@ -739,129 +739,331 @@
                   td Frecuencia despierto (latidos/min)
                   td Media (latidos/min)
                   td Frecuencia dormido (latidos/min)
-                tr
-                  td Neonato hasta los 3 meses
-                  td Entre 85 y 205
-                  td 140
-                  td Entre 80 a 160
-                tr
-                  td 3 meses a 2 años
-                  td Entre 100 y 190
-                  td 130
-                  td Entre 75 y 160
-                tr
-                  td 2 a 10 años
-                  td Entre 60 y 140
-                  td 80
-                  td Entre 60-90
-                tr
-                  td Mayor de 10 años
-                  td Entre 60 y 100
-                  td 75
-                  td Entre 50-90
+                tbody.text-center
+                  tr
+                    td Neonato hasta los 3 meses
+                    td Entre 85 y 205
+                    td 140
+                    td Entre 80 a 160
+                  tr
+                    td 3 meses a 2 años
+                    td Entre 100 y 190
+                    td 130
+                    td Entre 75 y 160
+                  tr
+                    td 2 a 10 años
+                    td Entre 60 y 140
+                    td 80
+                    td Entre 60-90
+                  tr
+                    td Mayor de 10 años
+                    td Entre 60 y 100
+                    td 75
+                    td Entre 50-90
                 
-      .py-4.py-md-5(titulo="")
+      .py-4.py-md-5(titulo="Valores de frecuencia respiratoria")
         .row.justify-content-center
           .col-md-10
             .tabla-b.color-acento-contenido.mb-5
               
-              table
+              table.text-center
+                caption Nota. Ministerio de Salud y Protección Social. (2021).
                 thead
-                  th.text-center.h3(style="background-color: #FFA69D" colspan="3")
-                tr(style="background-color: #FFE0DD")
-                  td
-                  td
-                  td
+                  th.text-center.h3(style="background-color: #FFA69D" colspan="3") VALORES DE FRECUENCIA RESPIRATORIA EN FUNCION DE LA EDAD
+                tr(style="background-color: #FFE0DD").h4
+                  td Edad
+                  td Normal (resp. /minuto)
+                  td Taquipnea (resp. /min)
                 tr
-                  td
-                  td
-                  td
+                  td <2 meses
+                  td 30-50
+                  td >60
                 tr
-                  td
-                  td
-                  td
+                  td 2-12 meses
+                  td 25-40
+                  td >50
                 tr
-                  td
-                  td
-                  td
+                  td 1-5 años
+                  td 20-30
+                  td >40
                 tr
-                  td
-                  td
-                  td
+                  td >5 años
+                  td 15-25
+                  td >30
                 tr
-                  td
-                  td
-                  td
-                tr
-                  td(colspan="3")
-      .py-4.py-md-5(titulo="")
+                  td(colspan="3") La frecuencia respiratoria debe medirse por un minuto, preferiblemente con el niño despierto sin llorar.
+      .py-4.py-md-5(titulo="Valores de saturación")
         .row.justify-content-center
           .col-md-10
             .tabla-b.color-acento-contenido.mb-5
               
-              table
+              table.text-center
+                caption Nota. Ministerio de Salud y Protección Social. (2021).
                 thead
-                  th.text-center.h3(style="background-color: #FFA69D" colspan="3")
-                tr(style="background-color: #FFE0DD")
-                  td
-                  td
-                  td
+                  th.text-center.h3(style="background-color: #FFA69D" colspan="2") VALORES DE SATURACIÓN DE OXÍGENO 
+                tr(style="background-color: #FFE0DD").h4
+                  td Altitud sobre el nivel del mar
+                  td Considerar hipoxemia
                 tr
-                  td
-                  td
-                  td
+                  td 0-1500msnm
+                  td ≤94%
                 tr
-                  td
-                  td
-                  td
+                  td 1501-2000 msnm
+                  td ≤92%
                 tr
-                  td
-                  td
-                  td
+                  td 2001-2500 msnm
+                  td ≤90%
                 tr
-                  td
-                  td
-                  td
+                  td 2501-3000 msnm
+                  td ≤88%
                 tr
-                  td
-                  td
-                  td
-                tr
-                  td(colspan="3")
-      .py-4.py-md-5(titulo="")
+                  td 3500-4000 msnm
+                  td ≤83%
+      .py-4.py-md-5(titulo="Valores de saturación")
         .row.justify-content-center
           .col-md-10
             .tabla-b.color-acento-contenido.mb-5
               
-              table
+              table.text-center
                 thead
-                  th.text-center.h3(style="background-color: #FFA69D" colspan="3")
-                tr(style="background-color: #FFE0DD")
-                  td
-                  td
-                  td
+                  th.text-center.h3(style="background-color: #FFA69D" colspan="2") DEFINICIÓN DE HIPOTENSIÓN POR EDAD Y PRESIÓN ARTERIAL SISTÓLICA
+                tr(style="background-color: #FFE0DD").h4
+                  td Edad
+                  td Presión Arterial Sistólica (mm Hg)
                 tr
-                  td
-                  td
-                  td
+                  td Neonatos (0-28 días)
+                  td  <60       
                 tr
-                  td
-                  td
-                  td
+                  td Lactantes (1 a 12 meses)
+                  td  <70       
                 tr
-                  td
-                  td
-                  td
+                  td Niños de 1 a 10 años
+                  td <70 + (edad en años x 2)      
                 tr
-                  td
-                  td
-                  td
-                tr
-                  td
-                  td
-                  td
-                tr
-                  td(colspan="3")
+                  td Niños > 10 años
+                  td < 90
+    p.mb-5(data-aos='fade-right') Adicionalmente, se deben tener en cuenta otros aspectos particulares a realizar en cada consulta:
+    .row.justify-content-center.mb-5
+      .col-lg-8.mb-lg-0.mb-3(data-aos="fade-right")
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
+          .row(titulo="Valoración del desarrollo")
+            .col-lg-2.col-4.mb-lg-0.mb-3
+              figure
+                img(src='@/assets/curso/temas/tema1/73.svg', alt='')      
+            .col-lg-10
+              p Pretende realizar el seguimiento presentado en el desarrollo de las niñas o los niños en primera infancia con apoyo de padres y/o cuidadores, maestros quienes se encuentran en el entorno y cumplen un papel vital sobre el desarrollo de la niña o el niño, y que a través de la aplicación directa de la Escala Abreviada de Desarrollo-3, ante la sospecha de alteraciones del desarrollo, se pudiera aplicar también el test M-Chat R/F, instrumento útil para tamizaje del trastorno del espectro autista, específicamente, a todas las niñas y los niños entre los 18 y los 30 meses de edad.
+          .row(titulo="Valoración del estado nutricional y de parámetros antropométricos")
+            .col-lg-2.col-4.mb-lg-0.mb-3
+              figure
+                img(src='@/assets/curso/temas/tema1/74.svg', alt='')      
+            .col-lg-10
+              p Se realiza tomando las medidas de peso, talla y perímetro cefálico, para el cálculo de los índices relacionados con los mismos. También, se debe tener en cuenta algunos aspectos culturales, geográficos, económicos y otros como lo son: acceso y disponibilidad a esos alimentos y lo más importante, cubrir aquellos nutrientes críticos que ya no son cubiertos por la lactancia materna como: hierro, zinc y vitamina D, y que serán fundamentales para el adecuado desarrollo de las niñas y los niños.
+          .row(titulo="Valoración de la salud sexual")
+            .col-lg-2.col-4.mb-lg-0.mb-3
+              figure
+                img(src='@/assets/curso/temas/tema1/75.svg', alt='')      
+            .col-lg-10
+              p Se debe prestar especial atención a la detección de signos de violencia física y sexual, así como anomalías congénitas.
+          .row(titulo="Valoración de la salud visual")
+            .col-lg-2.col-4.mb-lg-0.mb-3
+              figure
+                img(src='@/assets/curso/temas/tema1/76.svg', alt='')      
+            .col-lg-10
+              p Se aplica de acuerdo al tamizaje encontrado en la Resolución 3280 de 2018, en el cual se realiza un examen oftalmoscópico, el cual explora y evalúa las estructuras. Se debe valorar la agudeza visual a partir de los tres (3) años de edad usando optotipos morfoscópicos o angulares. Tener en cuenta para la valoración las preocupaciones de los padres.
+          .row(titulo="Valoración de la salud auditiva y comunicativa")
+            .col-lg-2.col-4.mb-lg-0.mb-3
+              figure
+                img(src='@/assets/curso/temas/tema1/77.svg', alt='')      
+            .col-lg-10
+              p Se realiza una inspección del oído, que debe encontrarse íntegro a través de la valoración visual, la otoscopia, y de las funciones de la articulación, voz, habla y desempeño para comunicarse. Se recomienda aplicar la lista de chequeo de factores de riesgo de las enfermedades del oído, alteraciones auditivas, vestibulares y de la comunicación. Durante la consulta se debe aplicar el cuestionario VALE. Verificar resultado de tamizaje auditivo, especialmente en niños y niñas con riesgo de hipoacusia.
+          .row(titulo="Valoración de la salud bucal")
+            .col-lg-2.col-4.mb-lg-0.mb-3
+              figure
+                img(src='@/assets/curso/temas/tema1/78.svg', alt='')      
+            .col-lg-10
+              p Su objetivo está no solo en el reconocimiento del estado de las estructuras dentomaxilofaciales y de su función, sino que además valora los procesos de masticación, deglución, procesos comunicativos y del lenguaje asociados al rango de edad al que se está consultando.
+          div(titulo="Valoración de la salud mental")
+              p En este marco es importante indagar acerca de la calidad de la relación de los padres hacia los hijos, dado que este factor es importante como protector o riesgo de posibles problemas y /o trastornos mentales. Identificar los hallazgos a partir de la anamnesis.
+                br
+                br
+                |Se debe valorar la presencia de riesgos psicosociales para violencias y de exposición a violencias, exposición a lesiones en los niños o niñas por consumo de sustancias psicoactivas del padre o madre, o algún factor de riesgo como trastorno mental, convulsiones o ausencias, situaciones o momentos significativos (duelo o pérdidas), alteraciones o anormalidades relacionadas con la salud mental o neurológica.
+                br
+                br
+                |Las alteraciones de la salud mental en la primera infancia tienen su expresión principal en los procesos del desarrollo; aunque pueden presentarse alteraciones en el apego, así como experiencias adversas en la niñez, manifestaciones iniciales de trastornos del espectro autista, ansiedad, depresión, entre otras. Debe considerarse la valoración del riesgo psicosocial del cuidador como factor clave e indicador de riesgo de la salud mental en las niñas y niños en primera infancia.
+      .col-lg-4.d-lg-block.d-none(data-aos="fade-left"): img(src='@/assets/curso/temas/tema1/79.png', alt='')
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .tarjeta.color-primario.p-4
+          .row.justify-content-around.align-items-center
+            .col-auto
+              img(src="@/assets/curso/temas/tema1/80.svg").img65
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h4.mb-1 Valoración de la salud auditiva y comunicativa
+                  p.mb-0.text-small Durante la consulta se debe aplicar el cuestionario VALE. El siguiente video expone la aplicación de este instrumento.
+                .col-sm-auto
+                  a.boton.color-acento-botones(@click="modal3 = true")
+                    span.text-white Ver video
+                    i.fas.fa-video(style="color: white") 
+    .p-3(style="background-color: #E3EEFC").mb-4
+      .row.justify-content-center
+        .col-lg-1.mb-lg-0.mb-3.col-4: img(src='@/assets/curso/temas/tema1/81.svg', alt='')
+        .col-lg-11
+          p Ante cualquier alteración encontrada en la anamnesis, en el examen físico o en la aplicación de algunos de los instrumentos usados durante la valoración, debe canalizarse a la ruta integral de atención en salud para población con riesgo o a la atención resolutiva por profesional especializado, según sea el caso, para el manejo respectivo.
+    .row.justify-content-center.mb-5
+      .col-lg-4.col-8.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/82.png', alt='')
+      .col-lg-8
+        p Ahora bien, en cuanto a la información de salud, se hace necesario recordar la importancia de brindar información de acuerdo con los hallazgos, las necesidades identificadas en la consulta y las inquietudes o necesidades expresadas por la niña o el niño, así como de los padres o cuidadores.
+          br
+          br
+          |Es importante abordar pautas de prevención de violencias y brindar elementos para detectar estas situaciones y activar la ruta de atención correspondiente. De acuerdo al momento de desarrollo en el que se encuentre, se deben dar orientaciones para promoverlo, pueden enseñarse hitos del desarrollo de acuerdo con la edad específica en la que se encuentran, tal como se representa en la gráfica, que pueda favorecer los procesos de vigilancia, involucrando a los padres y cuidadores en el proceso.
+    .tarjeta.bg-slyder.p-5.mb-5
+      SlyderA(tipo='b')
+        .row
+          .col-lg-7.mb-4.mb-md-0
+            h5 Prácticas de crianza protectoras y basadas en derechos- prevención de las violencias.
+            p Es necesario comentar con los padres y cuidadores respecto a prácticas de crianza protectoras basadas en derechos, partiendo del reconocimiento de los niños y las niñas desde su particularidad, a través de una comunicación permanente, que avance en el establecimiento de hábitos y rutinas.
+          .col-lg-5
+            figure
+              img(src='@/assets/curso/temas/tema1/83.png', alt='')
+        .row
+          .col-lg-7.mb-4.mb-md-0
+            h5 Promoción de la salud, del bienestar, del crecimiento y del desarrollo.
+            p Indique a los padres o cuidadores que pasen tiempo con el niño en actividades agradables, que jueguen y se comuniquen con el niño, que lo escuchen y le muestren comprensión y respeto. Que lo protejan de cualquier forma de violencias, incluidas la intimidación/acoso y la exposición a la violencia en el hogar, en la escuela y en la comunidad. Que prevean cambios importantes en su vida (como el inicio de la educación escolar o el nacimiento de un hermano), reconociendo que son situaciones estresantes que requieren de su atención y apoyo. Informe sobre la necesidad de garantizarle las condiciones para que duerma cómodo y suficientes horas.
+              br
+              br
+              |Tener rutinas regulares de ir a la cama a determinada hora, retirar el televisor u otros dispositivos electrónicos con pantallas del área donde duerme.
+          .col-lg-5
+            figure
+              img(src='@/assets/curso/temas/tema1/84.png', alt='')
+        .row
+          .col-lg-7.mb-4.mb-md-0
+            h5 Alimentación saludable y promoción de la lactancia materna.
+            p Informe sobre la alimentación saludable y la necesidad de mantenerse activos físicamente mediante actividades diarias, juegos o deportes, durante un mínimo de 30 minutos. Brindar información referente a la lactancia materna y sus beneficios en los más pequeños, así como acompañar y guiar el paso a la alimentación complementaria al cumplir los 6 meses, junto con una adecuada manipulación de alimentos, son componentes fundamentales para su salud y bienestar.
+          .col-lg-5
+            figure
+              img(src='@/assets/curso/temas/tema1/85.png', alt='')
+        .row
+          .col-lg-7.mb-4.mb-md-0
+            h5 Promoción de hábitos y estilos de vida saludable.
+            p Recomiende a los padres motivar a sus hijos a participar todo lo posible en actividades en la escuela, la comunidad y otras actividades sociales, que pasen tiempo con familiares y amigos de confianza. Recomiende a los padres y cuidadores evitar el uso de drogas, alcohol y tabaco. Elogie al cuidador y al niño por sus esfuerzos en el cuidado de su salud.
+          .col-lg-5
+            figure
+              img(src='@/assets/curso/temas/tema1/86.png', alt='')
+        .row
+          .col-lg-7.mb-4.mb-md-0
+            h5 Prevención de enfermedades y accidentes.
+            p Los cuidadores y las familias en general deben tener presente favorecer entornos protectores, favorecedores de su desarrollo: evitando la exposición al humo de tabaco, estableciendo momentos para el juego, la actividad física y el deporte, regulando tiempos de exposición a pantallas, evitando el ruido para una audición segura, entre otras más. Procurar pautas de cuidado de su salud que puedan ir incorporando como cuidado propio: desde la salud bucal, pasando por el cuidado de la audición y la visión, aclarando signos de alarma y orientaciones para acudir al servicio de urgencias en los casos que corresponda.
+              br
+              br
+              |Incluya información sobre derechos de los niños, derecho a la salud, y mecanismos de exigibilidad de los mismos y en el marco de la consulta, ponga de presente al niño o la niña como centro de esta atención.
+          .col-lg-5
+            figure
+              img(src='@/assets/curso/temas/tema1/87.png', alt='')
+        .row
+          .col-lg-7.mb-4.mb-md-0
+            h5 Signos de alarma y manejo básico de para condiciones prevalentes.
+            p Finalmente, brinde información sobre los derechos de las madres, la importancia del empoderamiento de las mujeres para trabajar actividades de cuidado para ellas y sus hijos, así como para promover el fortalecimiento del rol del padre como cuidador de sus hijas e hijos.
+          .col-lg-5
+            figure
+              img(src='@/assets/curso/temas/tema1/88.png', alt='')
+    p.mb-5(data-aos='fade-right') Sumado a esto, también se deben tener en cuenta los instrumentos, insumos y dispositivos, para dar cumplimiento a los estándares de habilitación para la consulta de pediatría, medicina general, medicina familiar o enfermería, como lo son:
+    .mn.p-5(style="background-color: #FFE0DD").mb-5
+      .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+        h5 Figura 8.
+        span Instrumentos, insumos y dispositivos
+      .row.justify-content-center.mb-5
+        .col-lg-4.mb-lg-0.mb-3
+          div(style="background-color:#AFCDF5; border-radius: 10px 10px 0px 0px ").p-3
+            h5.text-center.mb-0 Instrumentos
+          div.h-100(style="background-color: #E3EEFC; border-radius: 0px 0px 10px 10px ").p-3
+            ul.lista-ul
+              li.d-flex
+                i.fas.fa-circle.fa-xs(style="font-size: 5px")
+                p.mb-0 #[b Tablas y gráficas de los patrones de referencia para clasificación nutricional.]
+
+              li.d-flex
+                i.fas.fa-circle.fa-xs(style="font-size: 5px")
+                p.mb-0 #[b Escala Abreviada de Desarrollo-3 con su kit de materiales. Test M-Chat R/F.]
+
+              li.d-flex
+                i.fas.fa-circle.fa-xs(style="font-size: 5px")
+                p.mb-0 #[b Cuestionario VALE.] Lista de chequeo de factores de riesgo de las enfermedades del oído, alteraciones auditivas, vestibulares y de la comunicación.
+
+              li.d-flex
+                i.fas.fa-circle.fa-xs(style="font-size: 5px")
+                p.mb-0 #[b APGAR familiar.] Familiograma (sugerido).
+        .col-lg-4.mb-lg-0.mb-3.align-self-end
+          .d-flex.h-100
+            img(src='@/assets/curso/temas/tema1/89.svg', alt='').align-self-end
+        .col-lg-4.mb-lg-0.mb-3
+          div(style="background-color:#AFCDF5; border-radius: 10px 10px 0px 0px ").p-3
+            h5.text-center.mb-0 Insumos y materiales para examen físico pediátrico
+          div.h-100(style="background-color: #E3EEFC; border-radius: 0px 0px 10px 10px ").p-3
+            ul.lista-ul
+              li.d-flex.mb-1
+                i.fas.fa-circle.fa-xs(style="font-size: 5px")
+                p.mb-0 Fonendoscopio. 
+              li.d-flex.mb-1
+                i.fas.fa-circle.fa-xs(style="font-size: 5px")
+                p.mb-0 Equipo de órganos. 
+              li.d-flex.mb-1
+                i.fas.fa-circle.fa-xs(style="font-size: 5px")
+                p.mb-0 Tensiómetro pediátrico. 
+              li.d-flex.mb-1
+                i.fas.fa-circle.fa-xs(style="font-size: 5px")
+                p.mb-0 Cinta métrica.
+              li.d-flex.mb-1
+                i.fas.fa-circle.fa-xs(style="font-size: 5px")
+                p.mb-0 Pulso-oxímetro.
+              li.d-flex.mb-1
+                i.fas.fa-circle.fa-xs(style="font-size: 5px")
+                p.mb-0 Optotipos morfoscópicos o angulares para agudeza visual etc.
+
+              li.d-flex.mb-1
+                i.fas.fa-circle.fa-xs(style="font-size: 5px")
+                p.mb-0 Balanza pesa bebé y balanza de pie. 
+              li.d-flex.mb-1
+                i.fas.fa-circle.fa-xs(style="font-size: 5px")
+                p.mb-0 Infantómetro y tallímetro.
+
+              li.d-flex.mb-1
+                i.fas.fa-circle.fa-xs(style="font-size: 5px")
+                p.mb-0 Tablas de percentiles de tensión arterial para niños y para niñas.
+
+              li.d-flex.mb-1
+                i.fas.fa-circle.fa-xs(style="font-size: 5px")
+                p.mb-0 Carné de salud infantil.
+    .p-3(style="background-color: #E3EEFC").mb-4
+      .row.justify-content-center
+        .col-lg-1.mb-lg-0.mb-3.col-4: img(src='@/assets/curso/temas/tema1/90.svg', alt='')
+        .col-lg-11
+          p Las políticas públicas de una sociedad deben orientar sus objetivos a la promoción de un cuidado cariñoso y sensible que vele por la salud y nutrición de las niñas y los niños, y que sea capaz de responder a sus necesidades, su seguridad y protección, y que promuevan el aprendizaje desde muy temprana edad, favoreciendo su desarrollo integral, orientado a una promoción no solo individual, sino colectiva, que apunte al mejoramiento de sus condiciones de vida a largo plazo.
+    .row.justify-content-center.mb-5
+      .col-lg-8.mb-lg-0.mb-3(data-aos="fade-right")
+        p Finalmente, de acuerdo con la publicación de la Comisión de Lancet, en el año 2020, Un futuro para los niños del mundo, dentro del desarrollo infantil es importante analizar los determinantes sociales como condiciones que en muchos casos pueden establecer un estado de desigualdad, además de propiciar ambientes y sistemas donde el desarrollo se ve amenazado por circunstancias adversas que no propicien el adecuado desarrollo del individuo, tales como inequidad en las posiciones sociales, acceso a la educación, bajos ingresos, sexo femenino, difícil acceso a los sistemas de salud y la desigualdad de la distribución de los recursos.
+          br
+          br
+          |A pesar de los esfuerzos que han realizado los países en mejorar la supervivencia, la nutrición y la educación, en las últimas décadas, el futuro de las niñas y los niños se ve directamente afectado por condiciones como el cambio climático, la degradación ecológica, la migración, las situaciones de conflicto armado, así como persistencia de las inequidades sociales.
+      .col-lg-4.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/tema1/91.png', alt='')
+    .p-3(style="background-color: #E3EEFC").mb-4
+      .row.justify-content-center
+        .col-lg-1.mb-lg-0.mb-3.col-4: img(src='@/assets/curso/temas/tema1/92.svg', alt='')
+        .col-lg-11
+          p La evidencia permite afirmar que la pobreza infantil medida en términos de ingreso familiar, educación y ocupación de los padres y de privaciones materiales, se asocia con un conjunto diverso de cambios estructurales y funcionales en el sistema nervioso. Los sistemas neuronales más involucrados en tales cambios parecerían ser aquellos correspondientes a procesos autorregulatorios cognitivos y emocionales, de lenguaje y de aprendizaje. (Clark, H.& Awa, M., et. al, 2020)
+    .row.justify-content-center.mb-5
+      .col-lg-4.col-8(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/93.png', alt='')
+      .col-lg-8(data-aos="fade-left")
+        p Los estudios recogidos por la publicación de Clark, H.& Awa, M. et. al, (2020), han demostrado, de acuerdo con el enfoque de curso de vida, teniendo en cuenta sus principios, la presencia de factores protectores como son la protección de sus derechos para vivir, crecer y participar, exponiéndose a ambientes seguros, evitando la exposición a la discriminación, porque actúa como un potenciador de la salud y el desarrollo, mientras que factores de vulnerabilidad como la malnutrición, las violencias de tipo físico, psicológico y sexual afectan directamente su desarrollo integral, teniendo en cuenta que entre ellos se encuentran la brecha correspondiente a los determinantes sociales; por lo tanto, el bienestar infantil está anclado en los derechos y equidad a lo largo de su curso de vida, con el objetivo de mejorar factores protectores y atenuantes de la vulnerabilidad, como compromiso en que deberían avanzar los países. La siguiente figura muestra lo anteriormente mencionado.
+    .p-3(style="background-color: #E3EEFC").mb-4
+      .row.justify-content-center
+        .col-lg-1.mb-lg-0.mb-3.col-4: img(src='@/assets/curso/temas/tema1/94.svg', alt='')
+        .col-lg-11
+          p En coherencia con la evidencia disponible, se ha corroborado que las inversiones en primera infancia son las más costo efectivas por la rentabilidad económica que genera para los países que las realizan; teniendo en cuenta que la primera infancia es el periodo de mayor plasticidad cerebral y neurogénesis, y se constituye en un periodo crítico para el desarrollo de habilidades cognitivas y psicosociales que son fundamentales para el aprendizaje, mejorando el rendimiento escolar y la calidad de la vida adulta en general. Debe considerase una prioridad la inversión en salud y educación de la niñez, así como propender por la protección de sus derechos. Intervenir en la infancia tiene efectos intergeneracionales para toda la vida.
+            br
+            br
+            |En los procesos de la valoración del desarrollo de las niñas y los niños deben tomarse en cuenta como importante factor contribuyente, los determinantes sociales, marcadores fundamentales de los resultados positivos o negativos al final del proceso
 
     
 
