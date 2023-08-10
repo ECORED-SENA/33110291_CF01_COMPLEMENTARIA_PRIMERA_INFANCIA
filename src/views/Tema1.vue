@@ -903,9 +903,10 @@
                   h4.mb-1 Valoración de la salud auditiva y comunicativa
                   p.mb-0.text-small Durante la consulta se debe aplicar el cuestionario VALE. El siguiente video expone la aplicación de este instrumento.
                 .col-sm-auto
-                  a.boton.color-acento-botones(@click="modal3 = true")
+                  a.boton.color-acento-botones(href='https://www.youtube.com/watch?v=hqgNAfBtYII&feature=youtu.be')
                     span.text-white Ver video
                     i.fas.fa-video(style="color: white") 
+                cta
     .p-3(style="background-color: #E3EEFC").mb-4
       .row.justify-content-center
         .col-lg-1.mb-lg-0.mb-3.col-4: img(src='@/assets/curso/temas/tema1/81.svg', alt='')

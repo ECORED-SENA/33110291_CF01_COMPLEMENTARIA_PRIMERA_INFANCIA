@@ -15,8 +15,8 @@
           p.mb-0 Este componente busca reconocer la importancia de la valoración integral de la salud en la primera infancia, a través de la adecuada aplicación de la EAD-3. En el siguiente video se presenta, de manera genérica, su marco legal y normativo.
       figure
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Vide. Titulo del video.
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/HdJS7aiGOzY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Vide. Valoración integral de la salud en la primera infancia.
     
     
 </template>
