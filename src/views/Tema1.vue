@@ -13,7 +13,7 @@
           img(src='@/assets/curso/temas/tema1/1.jpg', alt='').w-100
           .p-4
             h5 Ruta Integral de Atención Materno Perinatal
-            p.mb-5(data-aos='fade-right') El marco normativo en la Ruta Integral de Atención Materno Perinatal, es una herramienta operativa de obligatorio cumplimiento a nivel nacional, en la cual se encuentran cuáles son los lineamientos a seguir para la atención segura del recién nacido y la mujer, incluyendo su entorno familiar, comunitario y social, de manera que se garantice un acceso universal en el que se vean involucrados.
+            p.mb-0(data-aos='fade-right') El marco normativo en la Ruta Integral de Atención Materno Perinatal, es una herramienta operativa de obligatorio cumplimiento a nivel nacional, en la cual se encuentran cuáles son los lineamientos a seguir para la atención segura del recién nacido y la mujer, incluyendo su entorno familiar, comunitario y social, de manera que se garantice un acceso universal en el que se vean involucrados.
               br
               br
               |La población objeto está destinada a mujeres con intención reproductiva, donde se podrán identificar factores de riesgo e intervenirlos, garantizando la salud no solo de la mujer, sino de la familia.
@@ -22,7 +22,7 @@
           img(src='@/assets/curso/temas/tema1/2.jpg', alt='').w-100
           .p-4
             h5 Ruta Integral de Atención en Salud para la Promoción y Mantenimiento de la Salud (RPMS)
-            p.mb-5(data-aos='fade-right') Se centra en la promoción de la salud, la prevención del riesgo y la enfermedad, así como la generación de una cultura del cuidado de la salud en las personas, familias y comunidades; la RIA aplica para toda la población que habita en el territorio nacional.
+            p.mb-0(data-aos='fade-right') Se centra en la promoción de la salud, la prevención del riesgo y la enfermedad, así como la generación de una cultura del cuidado de la salud en las personas, familias y comunidades; la RIA aplica para toda la población que habita en el territorio nacional.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5.col-8.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/3.png', alt='')
       .col-lg-7(data-aos="fade-left")
@@ -145,7 +145,7 @@
         br
         br
         |Las condiciones con las cuales contará la niña o el niño y que serán materializados al hacer posible su crecimiento y desarrollo, son compromisos del Estado colombiano a través de Ley 1804 de 2016, artículo 4, la cual contiene:
-    .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+    .titulo-sexto.color-acento-contenido(data-aos='fade-right' alt='La imagen presenta las diferentes condiciones con las que debe contar la niña o el niño durante su crecimiento y desarrollo. <br>Es importante recordar que en cualquiera de los casos que llegase a presentarse situaciones de vulneración o riesgo para niñas y niños, se deben generar respuestas que garanticen y restituyan los derechos integrales para su propio desarrollo.')
       h5 Figura 3.
       span Compromisos del Estado
     .tarjeta.p-2.color-acento-contenido.mb-3.rounded-2
@@ -189,7 +189,7 @@
       span Estructurantes de la atención integral
     .tarjeta.p-2.color-acento-contenido.mb-3.rounded-2
       h4.text-center.mb-0 Estructurantes de la atención integral
-    .p-5(style="background-color: #E3EEFC ").mb-4(data-aos="zoom-in")
+    .p-5(style="background-color: #E3EEFC " alt='La imagen presenta los 5 estructurantes que conforman la atención integral, para asegurar el desarrollo integral de las niñas y los niños: cuidado y crianza, salud, alimentación y nutrición, educación inicial, ejercicio de la ciudadanía y participación y recreación.').mb-4(data-aos="zoom-in")
       p La política se focaliza en cinco estructurantes que conforman la atención integral y que deben ser garantizados a cada niña y a cada niño para asegurar su desarrollo integral.
       .row.justify-content-center.mb-5
         .col-lg-2.col-md-6.col-12.mb-lg-0.mb-3
@@ -388,9 +388,9 @@
             span Gráfica Marco Conceptual PAIS (Política de Atención Integral en Salud)
           .row.justify-content-center.mb-5
             .col-lg-8
-              img(src='@/assets/curso/temas/tema1/44.svg', alt='Texto alternativo: La imagen presenta el marco conceptual de la Política de Atención Integral en Salud, donde se presentan la entidad territorial, las EPS y las IPS.')
+              img(src='@/assets/curso/temas/tema1/44.svg', alt='La imagen presenta el marco conceptual de la Política de Atención Integral en Salud, donde se presentan la entidad territorial, las EPS y las IPS.')
               figcaption Nota. Tomado de MinSalud (2016, p.31)
-    p.mb-5(data-aos='fade-right') La familia, por su parte, es el núcleo del sistema con base en la Atención Primaria que se definen con enfoque en Salud Familiar, con visión de abordar los diferentes riesgos y el cuidado, que permiten a su vez mantener las condiciones adecuadas en la población. Dentro de este modelo de Política de Atención, el elemento que enlaza a los otros tres elementos (Entidad territorial, IPS-RED y EPS) es la Gestión Integral en Salud, que aborda de manera colectiva, todos los riesgos encontrados en ambas partes, como lo indica el Plan Decenal de Salud Pública.
+    p.mb-3(data-aos='fade-right') La familia, por su parte, es el núcleo del sistema con base en la Atención Primaria que se definen con enfoque en Salud Familiar, con visión de abordar los diferentes riesgos y el cuidado, que permiten a su vez mantener las condiciones adecuadas en la población. Dentro de este modelo de Política de Atención, el elemento que enlaza a los otros tres elementos (Entidad territorial, IPS-RED y EPS) es la Gestión Integral en Salud, que aborda de manera colectiva, todos los riesgos encontrados en ambas partes, como lo indica el Plan Decenal de Salud Pública.
       br
       br
       |La Política de Atención Integral en Salud incluye como beneficios:

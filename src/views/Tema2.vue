@@ -151,7 +151,7 @@
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
             h5 Figura 10. 
             span Procesos responsables del desarrollo neurológico.
-          img(src='@/assets/curso/temas/tema2/11.png', alt='')
+          img(src='@/assets/curso/temas/tema2/11.png', alt='Texto alternativo: La imagen presenta los tres procesos importantes que siguen siendo determinantes durante el neurodesarrollo: la mielinización, la sinaptogénesis y la poda sináptica y la arborización dendrítica.')
           figcaption Nota. Tomada de Tsujimoto S. (2008).
     .row.justify-content-center.mb-5
       .col-lg-2.col-4(data-aos="fade-right").mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema2/12.svg', alt='')
