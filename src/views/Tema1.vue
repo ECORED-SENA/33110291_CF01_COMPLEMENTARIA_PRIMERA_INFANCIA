@@ -13,7 +13,7 @@
           img(src='@/assets/curso/temas/tema1/1.jpg', alt='').w-100
           .p-4
             h5 Ruta Integral de Atención Materno Perinatal
-            p.mb-5(data-aos='fade-right') El marco normativo en la Ruta Integral de Atención Materno Perinatal, es una herramienta operativa de obligatorio cumplimiento a nivel nacional, en la cual se encuentran cuáles son los lineamientos a seguir para la atención segura del recién nacido y la mujer, incluyendo su entorno familiar, comunitario y social, de manera que se garantice un acceso universal en el que se vean involucrados.
+            p.mb-0(data-aos='fade-right') El marco normativo en la Ruta Integral de Atención Materno Perinatal, es una herramienta operativa de obligatorio cumplimiento a nivel nacional, en la cual se encuentran cuáles son los lineamientos a seguir para la atención segura del recién nacido y la mujer, incluyendo su entorno familiar, comunitario y social, de manera que se garantice un acceso universal en el que se vean involucrados.
               br
               br
               |La población objeto está destinada a mujeres con intención reproductiva, donde se podrán identificar factores de riesgo e intervenirlos, garantizando la salud no solo de la mujer, sino de la familia.
@@ -22,7 +22,7 @@
           img(src='@/assets/curso/temas/tema1/2.jpg', alt='').w-100
           .p-4
             h5 Ruta Integral de Atención en Salud para la Promoción y Mantenimiento de la Salud (RPMS)
-            p.mb-5(data-aos='fade-right') Se centra en la promoción de la salud, la prevención del riesgo y la enfermedad, así como la generación de una cultura del cuidado de la salud en las personas, familias y comunidades; la RIA aplica para toda la población que habita en el territorio nacional.
+            p.mb-0(data-aos='fade-right') Se centra en la promoción de la salud, la prevención del riesgo y la enfermedad, así como la generación de una cultura del cuidado de la salud en las personas, familias y comunidades; la RIA aplica para toda la población que habita en el territorio nacional.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema1/3.png', alt='')
       .col-lg-7
@@ -157,28 +157,28 @@
           p.mb-0 1. Contar con padre, madre, familia o cuidadores principales que se acojan y pongan en práctica las pautas de crianza que favorezcan el desarrollo integral
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.card-hover.p-4.h-100
-          img(src='@/assets/curso/temas/tema1/21.svg', alt='' style="width: 77px").mb-3
+          img(src='@/assets/curso/temas/tema1/95.svg', alt='' style="width: 77px").mb-3
           p.mb-0 2. Vivir y disfrutar del nivel más alto posible de salud.
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.card-hover.p-4.h-100
-          img(src='@/assets/curso/temas/tema1/21.svg', alt='' style="width: 77px").mb-3
+          img(src='@/assets/curso/temas/tema1/96.svg', alt='' style="width: 77px").mb-3
           p.mb-0 3. Gozar y mantener un estado nutricional adecuado.
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.card-hover.p-4.h-100
-          img(src='@/assets/curso/temas/tema1/21.svg', alt='' style="width: 77px").mb-3
+          img(src='@/assets/curso/temas/tema1/97.svg', alt='' style="width: 77px").mb-3
           p.mb-0 4. Crecer en entornos que favorecen su desarrollo.
     .row.justify-content-center.mb-5
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.card-hover.p-4.h-100
-          img(src='@/assets/curso/temas/tema1/21.svg', alt='' style="width: 77px").mb-3
+          img(src='@/assets/curso/temas/tema1/98.svg', alt='' style="width: 77px").mb-3
           p.mb-0 5. Construir su identidad en un marco de diversidad. 
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.card-hover.p-4.h-100
-          img(src='@/assets/curso/temas/tema1/21.svg', alt='' style="width: 77px").mb-3
+          img(src='@/assets/curso/temas/tema1/99.svg', alt='' style="width: 77px").mb-3
           p.mb-0 6. Expresar sentimientos, ideas y opiniones en sus entornos cotidianos y estos sean tenidos en cuenta.
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.card-hover.p-4.h-100
-          img(src='@/assets/curso/temas/tema1/21.svg', alt='' style="width: 77px").mb-3
+          img(src='@/assets/curso/temas/tema1/100.svg', alt='' style="width: 77px").mb-3
           p.mb-0 7. Crecer en entornos que proporcionen y garanticen sus derechos y actúen ante la exposición a situaciones de riesgo o vulneración.
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.p-4.h-100(style="background-color: #FFA69D ")
@@ -390,7 +390,7 @@
             .col-lg-8
               img(src='@/assets/curso/temas/tema1/44.svg', alt='Texto alternativo: La imagen presenta el marco conceptual de la Política de Atención Integral en Salud, donde se presentan la entidad territorial, las EPS y las IPS.')
               figcaption Nota. Tomado de MinSalud (2016, p.31)
-    p.mb-5(data-aos='fade-right') La familia, por su parte, es el núcleo del sistema con base en la Atención Primaria que se definen con enfoque en Salud Familiar, con visión de abordar los diferentes riesgos y el cuidado, que permiten a su vez mantener las condiciones adecuadas en la población. Dentro de este modelo de Política de Atención, el elemento que enlaza a los otros tres elementos (Entidad territorial, IPS-RED y EPS) es la Gestión Integral en Salud, que aborda de manera colectiva, todos los riesgos encontrados en ambas partes, como lo indica el Plan Decenal de Salud Pública.
+    p.mb-3(data-aos='fade-right') La familia, por su parte, es el núcleo del sistema con base en la Atención Primaria que se definen con enfoque en Salud Familiar, con visión de abordar los diferentes riesgos y el cuidado, que permiten a su vez mantener las condiciones adecuadas en la población. Dentro de este modelo de Política de Atención, el elemento que enlaza a los otros tres elementos (Entidad territorial, IPS-RED y EPS) es la Gestión Integral en Salud, que aborda de manera colectiva, todos los riesgos encontrados en ambas partes, como lo indica el Plan Decenal de Salud Pública.
       br
       br
       |La Política de Atención Integral en Salud incluye como beneficios:
@@ -1078,7 +1078,7 @@
 
 <script>
 export default {
-  name: 'Tema1',
+  name: "Tema1",
   components: {},
   data: () => ({
     modal1: false,
@@ -1088,13 +1088,13 @@ export default {
   }),
   mounted() {
     this.$nextTick(() => {
-      this.$aosRefresh()
-    })
+      this.$aosRefresh();
+    });
   },
   updated() {
-    this.$aosRefresh()
+    this.$aosRefresh();
   },
-}
+};
 </script>
 
 <style lang="sass"></style>

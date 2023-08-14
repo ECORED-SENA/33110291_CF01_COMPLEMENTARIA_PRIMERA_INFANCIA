@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo:
-      'Importancia de la valoración del desarrollo en el marco de la valoración integral en salud en la primera infancia.',
+      'Importancia de la valoración del desarrollo en el marco de la valoración integral en salud en la primera infancia',
     descripcionCurso:
       'La valoración integral en salud en primera infancia con énfasis en la evaluación del desarrollo, por medio de la Escala Abreviada del Desarrollo EAD-3, exige que todos los profesionales de la salud, fortalezcan sus competencias en los procesos de vigilancia y del tamizaje del desarrollo infantil, por medio de la aplicación de los instrumentos definidos para tal fin.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
