@@ -842,7 +842,7 @@
                 tr
                   td 3500-4000 msnm
                   td ≤83%
-      .py-4.py-md-5(titulo="Valores de saturación")
+      .py-4.py-md-5(titulo="Valores de tensión")
         .row.justify-content-center
           .col-md-10
             .tabla-b.color-acento-contenido.mb-5

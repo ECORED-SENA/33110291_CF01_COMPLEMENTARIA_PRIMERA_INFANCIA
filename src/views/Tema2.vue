@@ -6,10 +6,7 @@
       .titulo-principal__numero
         span 2
       h1 Generalidades del desarrollo infantil
-    p.mb-5(data-aos='fade-right') El desarrollo, es considerado un proceso dinámico que implica la continua interacción entre factores biológicos, psicológicos y sociales; es así que la primera infancia es la etapa de mayor exigencia que enfrenta el cerebro, ocurriendo desde el periodo embrionario y los primeros años de vida, teniendo una influencia trascendental para
-      br
-      br
-      |El desarrollo del niño, debido a que es el período donde se adquieren habilidades perceptivas, motrices, lingüísticas y sociales, que le permitirán una adecuada interacción social. (Ministerio de Salud y Protección Social, 2021)
+    p.mb-5(data-aos='fade-right') El desarrollo, es considerado un proceso dinámico que implica la continua interacción entre factores biológicos, psicológicos y sociales; es así que la primera infancia es la etapa de mayor exigencia que enfrenta el cerebro, ocurriendo desde el periodo embrionario y los primeros años de vida, teniendo una influencia trascendental para. El desarrollo del niño, debido a que es el período donde se adquieren habilidades perceptivas, motrices, lingüísticas y sociales, que le permitirán una adecuada interacción social. (Ministerio de Salud y Protección Social, 2021)
     .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in")
       .bloque-texto-g__img(
         :style="{'background-image':`url(${require('@/assets/curso/temas/tema2/1.jpg')})`}"
@@ -40,7 +37,7 @@
       .row.justify-content-center
         .col-lg-1.mb-lg-0.mb-3.col-4: img(src='@/assets/curso/temas/tema2/2.svg', alt='')
         .col-lg-11
-          p De acuerdo con la Política de Estado para el Desarrollo Integral de la Primera Infancia de Cero a Siempre: El desarrollo integral no se sucede de manera lineal, secuencial, acumulativa, siempre ascendente, homogénea, prescriptiva e idéntica para todos los niños y las niñas, sino que se expresa de manera particular en cada uno. La interacción con una amplia variedad de actores, contextos y condiciones es significativa para el potenciamiento de las capacidades y de la autonomía progresiva. El desarrollo ocurre a lo largo de todo el ciclo vital y requiere de acciones de política pública que lo promuevan más allá de la primera infancia. (Ley 1804 de 2016
+          p De acuerdo con la Política de Estado para el Desarrollo Integral de la Primera Infancia de Cero a Siempre: El desarrollo integral no se sucede de manera lineal, secuencial, acumulativa, siempre ascendente, homogénea, prescriptiva e idéntica para todos los niños y las niñas, sino que se expresa de manera particular en cada uno. La interacción con una amplia variedad de actores, contextos y condiciones es significativa para el potenciamiento de las capacidades y de la autonomía progresiva. El desarrollo ocurre a lo largo de todo el ciclo vital y requiere de acciones de política pública que lo promuevan más allá de la primera infancia. (Ley 1804 de 2016)
     p.mb-5(data-aos='fade-right') Con referencia a la definición de alteración del desarrollo, esta se presenta cuando no se da en el ritmo o en la secuencia habitual de la progresión del desarrollo, para lo cual se consideran las siguientes categorías:
     .row.justify-content-center.mb-5
       .col-lg-8.mb-lg-0.mb-3
@@ -182,7 +179,7 @@
     p.mb-5(data-aos='fade-right') La evidencia ha demostrado en estudios en humanos y en roedores, que la exposición prenatal a la adversidad (estrés materno, bajos niveles de cuidado posnatal, exposiciones a violencias) alterna la metilación del ADN y el gen promotor de los receptores de glucocorticoides.
       br
       br
-      |La exposición a estas situaciones adversas o “estrés toxico prenatal” se asocia con incremento en la metilación de los receptores de los glucocorticoides y disminución en la expresión de estos genes, que en consecuencia genera una respuesta individual alterada al estrés, llevando consigo a un riesgo incrementado de enfermedades entre ellas de salud mental, en la infancia o en la vida adulta. Lo anterior se evidencia a través de la siguiente gráfica.
+      |La exposición a estas situaciones adversas o “estrés toxico prenatal” se asocia con incremento en la metilación de los receptores de los glucocorticoides y disminución en la expresión de estos genes, que en consecuencia genera una respuesta individual alterada al estrés, llevando consigo a un riesgo incrementado de enfermedades entre ellas de salud mental, en la infancia o en la vida adulta.
     .p-3(style="background-color: #E3EEFC").mb-4
       .row.justify-content-center
         .col-lg-1.mb-lg-0.mb-3.col-4: img(src='@/assets/curso/temas/tema2/17.svg', alt='')
