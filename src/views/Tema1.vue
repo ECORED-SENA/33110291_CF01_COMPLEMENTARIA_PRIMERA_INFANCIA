@@ -314,7 +314,7 @@
         .col-lg-11
           p En el enfoque diferencial de territorios y poblaciones, la política también reseña las situaciones que pueden generar mayor vulnerabilidad para el ejercicio del derecho a la salud y que requieren precisar mecanismos y esfuerzos que logren disminuir las brechas de equidad evidenciadas; reconoce por demás, que los sujetos tienen una capacidad de agencia y la respuesta en salud debe partir de ese reconocimiento del sujeto como ser integral; y finalmente, a partir de esta comprensión, denota como esencial avanzar en la adecuación de los servicios y de los procesos de gestión para responder de manera pertinente a las necesidades y potencialidades de las poblaciones en contexto de sus territorios.
     p.mb-5(data-aos='fade-right') Ahora bien, la política de acción integral también puede estudiarse desde su enfoque, tal como se aprecia a continuación.
-    .tarjeta.bg-slyder.p-5.mb-5
+    .tarjeta.bg-slyder.p-lg-5.p-3.mb-5
       SlyderA(tipo='b')
         .row
           .col-lg-7.mb-4.mb-md-0
@@ -359,14 +359,14 @@
           .col-lg-5
             figure
               img(src='@/assets/curso/temas/tema1/40.png', alt='')
-        .row
+        .row.justify-content-center
           .col-lg-8.mb-4.mb-md-0
             h5 Enfoque de curso de vida
             p El ciclo vital y las etapas de la vida son los aspectos que conforman el enfoque de curso de vida y que es caracterizado por vulnerabilidades y oportunidades de intervención durante el transcurso de la vida, experiencias encontradas a lo largo de la vida y planes de atención complementaria, en los cuales tiene acceso toda persona para la atención en salud. También es reconocido el desarrollo y resultados en salud que dependen de la interacción de los distintos factores de cada persona.
               br
               br
               |Los contextos que participan en este enfoque son aquellos que se encuentran en constante construcción en sus entornos familiares, socioculturales, económicos y ambientales. Las rutas integrales de atención en salud se mantienen en seguimiento constante de las etapas vividas del ser humano, las cuales, de manera determinada, brindan oportunidades óptimas para la implementación de resultados de salud, que permitan continuar con el desarrollo de conductas, habilidades o capacidades que se van adhiriendo con cada trayectoria en el transcurso de la vida.
-          .col-lg-4
+          .col-lg-4.col-8
             figure
               img(src='@/assets/curso/temas/tema1/41.png', alt='')
     .row.justify-content-center.mb-5
@@ -633,11 +633,11 @@
     p.mb-5(data-aos='fade-right') Teniendo en cuenta la definición de lo que es y tiene por objetivo una valoración integral en primera infancia, se debe recordar que, de encontrarse algún factor de riesgo, se procede de acuerdo a lo establecido en la Resolución 3280 de 2018 y los protocolos institucionales a cargo de las intervenciones que sean definidas por profesionales entrenados para la atención de la niña o niño. A continuación, se expone el procedimiento indicado de acuerdo con la resolución mencionada, para la recopilación de información, que incluya indagación de antecedentes y revisión por sistemas.
     .tarjeta.rounded-3.color-acento-contenido.p-2(data-aos="fade-right").mb-5
         h4.mb-0.mx-2.text-center Proceso de indagación
-    .tarjeta.bg-slyder.p-5.mb-5
+    .tarjeta.bg-slyder.p-lg-5.p-3.py-1.mb-5
       SlyderA(tipo='b')
         .row.mx-3.justify-content-center
           .col-lg-7.mb-4.mb-md-0
-            .row.justify-content-center.mb-5
+            .row.justify-content-center
               .col-2.mb-lg-0.mb-3
                 .numero
                   p.h2.m-4 1 
@@ -646,7 +646,7 @@
           .col-lg-5.col-8: img(src='@/assets/curso/temas/tema1/61.png', alt='')
         .row.mx-3.justify-content-center
           .col-lg-7.mb-4.mb-md-0
-            .row.justify-content-center.mb-5
+            .row.justify-content-center
               .col-2.mb-lg-0.mb-3
                 .numero
                   p.h2.m-4 2
@@ -655,7 +655,7 @@
           .col-lg-5.col-8: img(src='@/assets/curso/temas/tema1/62.png', alt='')
         .row.mx-3.justify-content-center
           .col-lg-7.mb-4.mb-md-0
-            .row.justify-content-center.mb-5
+            .row.justify-content-center
               .col-2.mb-lg-0.mb-3
                 .numero
                   p.h2.m-4 3
@@ -664,7 +664,7 @@
           .col-lg-5.col-8: img(src='@/assets/curso/temas/tema1/63.png', alt='')
         .row.mx-3.justify-content-center
           .col-lg-7.mb-4.mb-md-0
-            .row.justify-content-center.mb-5
+            .row.justify-content-center
               .col-2.mb-lg-0.mb-3
                 .numero
                   p.h2.m-4 4
@@ -673,7 +673,7 @@
           .col-lg-5.col-8: img(src='@/assets/curso/temas/tema1/64.png', alt='')
         .row.mx-3.justify-content-center
           .col-lg-7.mb-4.mb-md-0
-            .row.justify-content-center.mb-5
+            .row.justify-content-center
               .col-2.mb-lg-0.mb-3
                 .numero
                   p.h2.m-4 5
@@ -682,7 +682,7 @@
           .col-lg-5.col-8: img(src='@/assets/curso/temas/tema1/65.png', alt='')
         .row.mx-3.justify-content-center
           .col-lg-7.mb-4.mb-md-0
-            .row.justify-content-center.mb-5
+            .row.justify-content-center
               .col-2.mb-lg-0.mb-3
                 .numero
                   p.h2.m-4 6
@@ -691,7 +691,7 @@
           .col-lg-5.col-8: img(src='@/assets/curso/temas/tema1/66.png', alt='')
         .row.mx-3.justify-content-center
           .col-lg-7.mb-4.mb-md-0
-            .row.justify-content-center.mb-5
+            .row.justify-content-center
               .col-2.mb-lg-0.mb-3
                 .numero
                   p.h2.m-4 7 
@@ -700,7 +700,7 @@
           .col-lg-5.col-8: img(src='@/assets/curso/temas/tema1/67.png', alt='')
         .row.mx-3.justify-content-center
           .col-lg-7.mb-4.mb-md-0
-            .row.justify-content-center.mb-5
+            .row.justify-content-center
               .col-2.mb-lg-0.mb-3
                 .numero
                   p.h2.m-4 8 
@@ -709,7 +709,7 @@
           .col-lg-5.col-8: img(src='@/assets/curso/temas/tema1/68.png', alt='')
         .row.mx-3.justify-content-center
           .col-lg-7.mb-4.mb-md-0
-            .row.justify-content-center.mb-5
+            .row.justify-content-center
               .col-2.mb-lg-0.mb-3
                 .numero
                   p.h2.m-4 9
@@ -718,7 +718,7 @@
           .col-lg-5.col-8: img(src='@/assets/curso/temas/tema1/69.png', alt='')
         .row.mx-3.justify-content-center
           .col-lg-7.mb-4.mb-md-0
-            .row.justify-content-center.mb-5
+            .row.justify-content-center
               .col-2.mb-lg-0.mb-3
                 .numero
                   p.h2.m-4 10
@@ -942,7 +942,7 @@
           br
           br
           |Es importante abordar pautas de prevención de violencias y brindar elementos para detectar estas situaciones y activar la ruta de atención correspondiente. De acuerdo al momento de desarrollo en el que se encuentre, se deben dar orientaciones para promoverlo, pueden enseñarse hitos del desarrollo de acuerdo con la edad específica en la que se encuentran, tal como se representa en la gráfica, que pueda favorecer los procesos de vigilancia, involucrando a los padres y cuidadores en el proceso.
-    .tarjeta.bg-slyder.p-5.mb-5
+    .tarjeta.bg-slyder.p-lg-5.p-4.mb-5
       SlyderA(tipo='b')
         .row
           .col-lg-7.mb-4.mb-md-0
@@ -951,14 +951,14 @@
           .col-lg-5
             figure
               img(src='@/assets/curso/temas/tema1/83.png', alt='')
-        .row
-          .col-lg-7.mb-4.mb-md-0
+        .row.justify-content-center
+          .col-lg-7.mb-3.mb-md-0
             h5 Promoción de la salud, del bienestar, del crecimiento y del desarrollo.
             p Indique a los padres o cuidadores que pasen tiempo con el niño en actividades agradables, que jueguen y se comuniquen con el niño, que lo escuchen y le muestren comprensión y respeto. Que lo protejan de cualquier forma de violencias, incluidas la intimidación/acoso y la exposición a la violencia en el hogar, en la escuela y en la comunidad. Que prevean cambios importantes en su vida (como el inicio de la educación escolar o el nacimiento de un hermano), reconociendo que son situaciones estresantes que requieren de su atención y apoyo. Informe sobre la necesidad de garantizarle las condiciones para que duerma cómodo y suficientes horas.
               br
               br
               |Tener rutinas regulares de ir a la cama a determinada hora, retirar el televisor u otros dispositivos electrónicos con pantallas del área donde duerme.
-          .col-lg-5
+          .col-lg-5.col-8
             figure
               img(src='@/assets/curso/temas/tema1/84.png', alt='')
         .row
@@ -975,14 +975,14 @@
           .col-lg-5
             figure
               img(src='@/assets/curso/temas/tema1/86.png', alt='')
-        .row
+        .row.justify-content-center
           .col-lg-7.mb-4.mb-md-0
             h5 Prevención de enfermedades y accidentes.
             p Los cuidadores y las familias en general deben tener presente favorecer entornos protectores, favorecedores de su desarrollo: evitando la exposición al humo de tabaco, estableciendo momentos para el juego, la actividad física y el deporte, regulando tiempos de exposición a pantallas, evitando el ruido para una audición segura, entre otras más. Procurar pautas de cuidado de su salud que puedan ir incorporando como cuidado propio: desde la salud bucal, pasando por el cuidado de la audición y la visión, aclarando signos de alarma y orientaciones para acudir al servicio de urgencias en los casos que corresponda.
               br
               br
               |Incluya información sobre derechos de los niños, derecho a la salud, y mecanismos de exigibilidad de los mismos y en el marco de la consulta, ponga de presente al niño o la niña como centro de esta atención.
-          .col-lg-5
+          .col-lg-5.col-8
             figure
               img(src='@/assets/curso/temas/tema1/87.png', alt='')
         .row
