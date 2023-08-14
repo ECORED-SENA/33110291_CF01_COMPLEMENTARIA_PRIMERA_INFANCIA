@@ -66,29 +66,32 @@
           h5.mb-0 Estancamiento
           p Ocurre cuando no se evidencian avances ni progresos en el proceso de desarrollo típico. En muchas ocasiones, representa la fase inicial de una regresión del desarrollo. Por este motivo, también se considera un signo de alerta para el neurodesarrollo y para la salud de la niña o el niño.
       .col-lg-4.d-lg-block.d-none: img(src='@/assets/curso/temas/tema2/3.png', alt='')
-      .col-lg-4.d-block.d-lg-none: img(src='@/assets/curso/temas/tema2/3rp.png', alt='')
     p.mb-5(data-aos='fade-right') Para poder profundizar en las bases biológicas del desarrollo, se deben tener en cuenta la ontogenia y la filogenia. El término ontogenia hace referencia al desarrollo del individuo desde la etapa embrionaria y el término filogenia se refiere al desarrollo evolutivo de una especie. Las bases biológicas consideran los siguientes aspectos:
     .row.justify-content-center.mb-3
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.card-hover.p-4.h-100
           img(src='@/assets/curso/temas/tema2/4.svg', alt='' style="width: 77px").mb-3
-          p.mb-0 Durante el primer año de vida, el neurodesarrollo reproduce de manera muy aproximada la evolución filogenética de la especie a través de la maduración de los diferentes centros de integración neurológico. En el primer trimestre, el primer centro de integración neurológico se encuentra en la médula oblonga traducido en la presencia de los reflejos medulares o primitivos, reproduciendo filogenéticamente a los invertebrados.
+          p.mb-0 Durante el #[b primer año de vida], el neurodesarrollo reproduce de manera muy aproximada la evolución filogenética de la especie a través de la maduración de los diferentes centros de integración neurológico. En el primer trimestre, el primer centro de integración neurológico se encuentra en la médula oblonga traducido en la presencia de los reflejos medulares o primitivos, reproduciendo filogenéticamente a los invertebrados.
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.card-hover.p-4.h-100
           img(src='@/assets/curso/temas/tema2/5.svg', alt='' style="width: 77px").mb-3
-          p.mb-0 Durante el segundo trimestre, el centro de integración neurológico de nivel superior se encuentra en el tronco encefálico traducido por la desaparición de los reflejos medulares, la aparición de los rolados para posteriormente asumir la actitud y desplazamiento en prono, recordando filogenéticamente a los reptiles.
+          p.mb-0 Durante el #[b segundo trimestre], el centro de integración neurológico de nivel superior se encuentra en el tronco encefálico traducido por la desaparición de los reflejos medulares, la aparición de los rolados para posteriormente asumir la actitud y desplazamiento en prono, recordando filogenéticamente a los reptiles.
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.card-hover.p-4.h-100
           img(src='@/assets/curso/temas/tema2/6.svg', alt='' style="width: 77px").mb-3
-          p.mb-0 En el tercer trimestre, el comando se encuentra en el diencéfalo traducido por el sedente y posteriormente el gateo en cuadrúpedo con marcha alternante, recordando a los mamíferos.
+          p.mb-0 En el #[b tercer trimestre], el comando se encuentra en el diencéfalo traducido por el sedente y posteriormente el gateo en cuadrúpedo con marcha alternante, recordando a los mamíferos.
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.card-hover.p-4.h-100
           img(src='@/assets/curso/temas/tema2/7.svg', alt='' style="width: 77px").mb-3
-          p.mb-0 Durante el último trimestre del primer año, el control es asumido por el neocórtex lo que se traduce con la aparición del bípedo y el inicio de la marcha independiente, recordando los homínidos.
+          p.mb-0 Durante el #[b último trimestre] del primer año, el control es asumido por el neocórtex lo que se traduce con la aparición del bípedo y el inicio de la marcha independiente, recordando los homínidos.
     p.mb-5(data-aos='fade-right') Otro concepto que a manejar durante el estudio del neurodesarrollo, es el concepto de áreas críticas; hace referencia a las áreas neurológicas, cuyo desarrollo dependen necesariamente de la estimulación externa, tal como se expone en la siguiente tabla.
     .row.justify-content-center.mb-5
       .col-lg-10
-        .tabla-b.mb-5
+        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+          h5 Tabla 1 
+          br
+          span.fst-italic Sistemas neurosensoriales con periodos críticos tempranos
+        .tabla-b.mb-5.tabla-editada
           .tabla-b__header(style="background-color: #FFA69D")
             h5.mb-0(style="color: #12263F") Sistemas neurosensoriales con periodos críticos tempranos
           table
@@ -133,7 +136,7 @@
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
             h5 Figura 9. 
             span Sinaptogénesis de acuerdo con la edad
-          img(src='@/assets/curso/temas/tema2/9.svg', alt='')
+          img(src='@/assets/curso/temas/tema2/9.svg', alt='Texto alternativo: La imagen presenta la relación directa entre la formación de la sinapsis, la edad del paciente y el desarrollo del circuito neuronal específico.')
           figcaption Nota. Tomado de Asociación Mundial de Educadores Infantiles (2012).
     .row.justify-content-center.mb-5
       .col-lg-9.mb-lg-0.mb-3(data-aos="fade-right")
@@ -160,13 +163,13 @@
           img(src='@/assets/curso/temas/tema2/13.jpg', alt='').w-100
           .p-4
             h5 Plasticidad expectante de la experiencia
-            p.mb-5(data-aos='fade-right') Hace referencia a un proceso de sinaptogénesis que dependerá de la recepción de estímulos para su mantenimiento, evitando así el proceso de degeneración; en este caso particular, se refiere al concepto de periodos críticos. Por ejemplo, en el área visual, si no hay estímulos visuales que producen el disparo continuo de esta sinapsis, estas sufrirán un proceso de degeneración y poda sináptica y una vez se cierre el periodo crítico la vía visual no podrá desarrollarse.
+            p.mb-0(data-aos='fade-right') Hace referencia a un proceso de sinaptogénesis que dependerá de la recepción de estímulos para su mantenimiento, evitando así el proceso de degeneración; en este caso particular, se refiere al concepto de periodos críticos. Por ejemplo, en el área visual, si no hay estímulos visuales que producen el disparo continuo de esta sinapsis, estas sufrirán un proceso de degeneración y poda sináptica y una vez se cierre el periodo crítico la vía visual no podrá desarrollarse.
       .col-lg-6.mb-lg-0.mb-3
         .tarjeta.oveflow-hidden(style="background-color:#FFE0DD ")
           img(src='@/assets/curso/temas/tema2/14.jpg', alt='').w-100
           .p-4
             h5 Plasticidad dependiente de la experiencia
-            p.mb-5(data-aos='fade-right') Esta sugiere cómo los estímulos externos tanto en calidad como en cantidad, sean estos positivos o negativos, podrán contribuir a la especialización y consolidación de los circuitos neuronales, por lo tanto el resultado último del desarrollo cognitivo de un individuo se gesta incluso desde la vida prenatal, dónde se nace con una información genética previamente determinada pero que va a estar sometida a un fino refinamiento por el ambiente con las experiencias positivas o negativas, las emociones y el aprendizaje temprano modulando el resultado final en cada individuo.
+            p.mb-0(data-aos='fade-right') Esta sugiere cómo los estímulos externos tanto en calidad como en cantidad, sean estos positivos o negativos, podrán contribuir a la especialización y consolidación de los circuitos neuronales, por lo tanto el resultado último del desarrollo cognitivo de un individuo se gesta incluso desde la vida prenatal, dónde se nace con una información genética previamente determinada pero que va a estar sometida a un fino refinamiento por el ambiente con las experiencias positivas o negativas, las emociones y el aprendizaje temprano modulando el resultado final en cada individuo.
     p.mb-5(data-aos='fade-right') La forma como se suceden esos procesos de mielinización, sinaptogénesis y formación de redes neuronales en la etapa posnatal temprana, explican en parte los principios básicos del desarrollo de motor grueso y fino en los primeros años, los cuales ocurren de forma cefalocaudal y de proximal a distal respectivamente, tal como se presenta en la figura.
     .row.justify-content-center.mb-5
       .col-lg-10

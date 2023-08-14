@@ -1,37 +1,37 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-2.p-md-5.mb-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
       h1 Marco normativo
     p.mb-5(data-aos='fade-right') La Resolución 3280 de 2018 adopta los lineamientos técnicos y operativos de la Ruta Integral de Atención en Salud para la Población Materno Perinatal y de la Ruta Integral de Atención para la Promoción y Mantenimiento de la Salud. A continuación, se explica brevemente cada una de estas rutas.
     .row.justify-content-center.mb-5
-      .col-lg-6.mb-lg-0.mb-3
+      .col-lg-6.mb-lg-0.mb-3(data-aos="fade-right")
         .tarjeta.oveflow-hidden(style="background-color:#FFE0DD ")
           img(src='@/assets/curso/temas/tema1/1.jpg', alt='').w-100
           .p-4
             h5 Ruta Integral de Atención Materno Perinatal
-            p.mb-0(data-aos='fade-right') El marco normativo en la Ruta Integral de Atención Materno Perinatal, es una herramienta operativa de obligatorio cumplimiento a nivel nacional, en la cual se encuentran cuáles son los lineamientos a seguir para la atención segura del recién nacido y la mujer, incluyendo su entorno familiar, comunitario y social, de manera que se garantice un acceso universal en el que se vean involucrados.
+            p.mb-5(data-aos='fade-right') El marco normativo en la Ruta Integral de Atención Materno Perinatal, es una herramienta operativa de obligatorio cumplimiento a nivel nacional, en la cual se encuentran cuáles son los lineamientos a seguir para la atención segura del recién nacido y la mujer, incluyendo su entorno familiar, comunitario y social, de manera que se garantice un acceso universal en el que se vean involucrados.
               br
               br
               |La población objeto está destinada a mujeres con intención reproductiva, donde se podrán identificar factores de riesgo e intervenirlos, garantizando la salud no solo de la mujer, sino de la familia.
-      .col-lg-6.mb-lg-0.mb-3
+      .col-lg-6.mb-lg-0.mb-3(data-aos="fade-left")
         .tarjeta.oveflow-hidden.h-100(style="background-color:#FFE0DD ")
           img(src='@/assets/curso/temas/tema1/2.jpg', alt='').w-100
           .p-4
             h5 Ruta Integral de Atención en Salud para la Promoción y Mantenimiento de la Salud (RPMS)
-            p.mb-0(data-aos='fade-right') Se centra en la promoción de la salud, la prevención del riesgo y la enfermedad, así como la generación de una cultura del cuidado de la salud en las personas, familias y comunidades; la RIA aplica para toda la población que habita en el territorio nacional.
+            p.mb-5(data-aos='fade-right') Se centra en la promoción de la salud, la prevención del riesgo y la enfermedad, así como la generación de una cultura del cuidado de la salud en las personas, familias y comunidades; la RIA aplica para toda la población que habita en el territorio nacional.
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema1/3.png', alt='')
-      .col-lg-7
+      .col-lg-5.col-8.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/3.png', alt='')
+      .col-lg-7(data-aos="fade-left")
         p.mb-0 La efectiva implementación de la RPMS (Ruta Integral de Atención para la Promoción y Mantenimiento de la Salud), se ve materializada tanto en los resultados en salud como los cambios en las condiciones de vida, concepciones y prácticas que promueven, mantienen y recuperan la salud, a la vez que favorecen el desarrollo integral de las personas, familias y comunidades, atribuidos a las intervenciones y atenciones en el continuo de la atención integral en salud. Comprenden resultados finales o de impacto y resultados intermedios o de efecto. A continuación, se describen los resultados en salud para las niñas y los niños.
     .mn.p-5(style="background-color: #E3EEFC")
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
         h5 Figura 1. 
         span Resultados en la salud de la primera infancia
-      .row.justify-content-center.align-items-center.mb-5
+      .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in")
         .col-lg-4.mb-lg-0.mb-3.order-lg-1.order-2
           .tarjeta-avatar-b.mb-4
             .tarjeta-avatar-b__img
@@ -65,7 +65,7 @@
                 p.mb-0 #[b 5.] Niñas y niños con adecuado estado de salud bucal: #[b resultado intermedio.]
         .col-lg-4.mb-lg-0.mb-3.order-lg-2.order-1
           .d-flex.justify-content-center.mb-3
-            .d-inline-flex.tarjeta.rounded-3.color-acento-contenido.p-2.mb-2
+            .d-inline-flex.tarjeta.rounded-3.color-acento-contenido.p-2(data-aos="fade-right").mb-2
               h4.mb-0.mx-2  Resultados en salud de la primera infancia
           .d-flex
             img(src='@/assets/curso/temas/tema1/9.svg', alt='' style="width: 400px").m-auto
@@ -103,26 +103,26 @@
     Separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.1 Ley 1804 de 2016
-    .p-3(style="background-color: #E3EEFC").mb-4
+    .p-3(style="background-color: #E3EEFC").mb-4(data-aos="zoom-in")
       .row.justify-content-center.align-items-center
-        .col-lg-1: img(src='@/assets/curso/temas/tema1/15.svg', alt='')
-        .col-lg-11: p.mb-0 Por la cual se establece la política de Estado para el desarrollo integral de la Primera Infancia de Cero a Siempre y se dictan otras disposiciones. (Ley 1804 de 2016)
-    .row.justify-content-center.mb-5
-      .col-lg-9.mb-lg-0.mb-3
+        .col-lg-1.col-3.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/15.svg', alt='')
+        .col-lg-11(data-aos="fade-left"): p.mb-0 Por la cual se establece la política de Estado para el desarrollo integral de la Primera Infancia de Cero a Siempre y se dictan otras disposiciones. (Ley 1804 de 2016)
+    .row.justify-content-center.mb-3.mb-lg-5
+      .col-lg-9(data-aos="fade-right")
         p.mb-0 Esta ley tiene como propósito establecer de Cero a Siempre, las bases conceptuales, técnicas, y la gestión que garantizará el seguimiento del desarrollo integral en la primera infancia, fortaleciendo dentro del marco institucional el reconocimiento y la protección con garantía de los derechos para la mujer en proceso de gestación, niñas y niños de los cero a seis años de edad, respetando los derechos fundamentales y aplicándolos según se establece en el Estado Social de Derecho.
           br
           br
           |La Ley 1804 de 2016 presenta la ruta dirigida a la primera infancia y el conjunto de normas que se asocian a su población, además de los procesos, valores, estructuras y roles institucionales. También, establece la aplicación de acciones estratégicas lideradas por el gobierno con responsabilidad con las familias y la sociedad, asegurando la protección integral y el goce efectivo de los derechos fundamentales en mujer gestante y de las niñas y niños en primera infancia.
-      .col-lg-3.col-8: img(src='@/assets/curso/temas/tema1/16.png', alt='')
+      .col-lg-3.col-8.d-lg-block.d-none(data-aos="fade-left"): img(src='@/assets/curso/temas/tema1/16.png', alt='')
     .row.justify-content-center.mb-5
-      .col-lg-2.col-6.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema1/17.svg', alt='')
-      .col-lg-10
+      .col-lg-2.col-6.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/17.svg', alt='')
+      .col-lg-10(data-aos="fade-left")
         p.mb-0 El desarrollo de este trabajo se debe hacer de manera articulada e intersectorial, permitiendo una perspectiva con derechos y enfoque que gestiona los resultados y los articula, lo que promueve de manera conjunta, las acciones intencionadas y efectivas que se encaminan en el aseguramiento de los diferentes entornos, los cuales transcurren en la etapa de la infancia de niñas y niños y en las condiciones humanas, sociales y materiales. Todo esto garantiza la promoción y potencialización en su desarrollo y, por ende, en la atención integral de acuerdo con los factores asociados de edad, entornos y demás condiciones.
           br
           br
           |Se establece, entonces, que la atención integral para niñas y niños de cero a seis años son prioridad para el Estado, tal como lo expone la siguiente figura, con sus líneas de acción.
     .row.justify-content-center.mb-5
-      .col-lg-10
+      .col-lg-10(data-aos="zoom-in")
         .tarjeta.p-5(style="background-color:#FFE0DD ")
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
             h5 Figura 2 
@@ -135,9 +135,9 @@
                 p.mb-0.h5 La gestión de la Política Pública debe orientarse a partir de las fases y líneas de acción sugeridas desde la política.
           figcaption Nota. Tomado de ICBF (2021).
     p.mb-5(data-aos='fade-right') La gráfica anterior indica cómo los planes de desarrollo que se establecen por departamento o municipio, los presupuestos públicos e instrumentos de planeación y gestión territorial, se deben armonizar con los objetivos y acciones que se establecen para esta política.
-    .p-3(style="background-color: #E3EEFC").mb-4
+    .p-3(style="background-color: #E3EEFC").mb-4(data-aos="zoom-in")
       .row.justify-content-center.align-items-center
-        .col-lg-1: img(src='@/assets/curso/temas/tema1/19.svg', alt='')
+        .col-lg-1.col-3.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema1/19.svg', alt='')
         .col-lg-11: p.mb-0 Es por ello, que para el desarrollo de esta ley, se deben tener en cuenta los principios consagrados en la Constitución Política y el código de Infancia y Adolescencia encontrado en la Ley 1098 de 2006, y la legislación nacional e internacional asociada, los cuales reconocen los derechos fundamentales, sin excepción, distinción, o discriminación; además de ser reconocidos como sujetos de derechos y que obligan al Estado a garantizar y dar cumplimiento a los mismos, generando estrategias de prevención de amenaza a sus derechos o que sean vulnerados para restablecer de manera inmediata.
     .row.justify-content-center.mb-5
       .col-lg-3.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema1/20.png', alt='')
@@ -150,7 +150,7 @@
       span Compromisos del Estado
     .tarjeta.p-2.color-acento-contenido.mb-3.rounded-2
       h4.text-center.mb-0 Compromisos del Estado
-    .row.justify-content-center.mb-3
+    .row.justify-content-center.mb-3(data-aos="zoom-in")
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.card-hover.p-4.h-100
           img(src='@/assets/curso/temas/tema1/21.svg', alt='' style="width: 77px").mb-3
@@ -167,7 +167,7 @@
         .tarjeta.card-hover.p-4.h-100
           img(src='@/assets/curso/temas/tema1/97.svg', alt='' style="width: 77px").mb-3
           p.mb-0 4. Crecer en entornos que favorecen su desarrollo.
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-3(data-aos="zoom-in")
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.card-hover.p-4.h-100
           img(src='@/assets/curso/temas/tema1/98.svg', alt='' style="width: 77px").mb-3
@@ -180,7 +180,7 @@
         .tarjeta.card-hover.p-4.h-100
           img(src='@/assets/curso/temas/tema1/100.svg', alt='' style="width: 77px").mb-3
           p.mb-0 7. Crecer en entornos que proporcionen y garanticen sus derechos y actúen ante la exposición a situaciones de riesgo o vulneración.
-      .col-lg-3.mb-lg-0.mb-3
+      .col-lg-3
         .tarjeta.p-4.h-100(style="background-color: #FFA69D ")
           p.mb-0 Es importante recordar que en cualquiera de los casos que llegase a presentarse situaciones de vulneración o riesgo para niñas y niños, se deben generar respuestas que garanticen y restituyan los derechos integrales para su propio desarrollo.
     p.mb-5(data-aos='fade-right') Los espacios o entornos necesarios (físicos, sociales y culturales), para el adecuado desarrollo e interacción de las niñas y los niños, deben contar con las condiciones necesarias y ofrecidas por el Estado, el cual se compromete con la promoción del desarrollo integral, de manera que puedan hacer pleno uso de sus derechos y ejercer como todo ser humano, garantizando su integridad física, emocional y social. La política se focaliza en los siguientes cinco estructurantes:
@@ -189,33 +189,33 @@
       span Estructurantes de la atención integral
     .tarjeta.p-2.color-acento-contenido.mb-3.rounded-2
       h4.text-center.mb-0 Estructurantes de la atención integral
-    .p-5(style="background-color: #E3EEFC ").mb-4
+    .p-5(style="background-color: #E3EEFC ").mb-4(data-aos="zoom-in")
       p La política se focaliza en cinco estructurantes que conforman la atención integral y que deben ser garantizados a cada niña y a cada niño para asegurar su desarrollo integral.
-      .d-flex.justify-content-center.align-items-start
-        .icon-text.m-2.w-100
+      .row.justify-content-center.mb-5
+        .col-lg-2.col-md-6.col-12.mb-lg-0.mb-3
           img(src='@/assets/curso/temas/tema1/22.svg', alt='' style="width: 190px").mb-3.m-auto
           h5.text-center Cuidado y crianza
-        .icon-text.m-2.w-100
+        .col-lg-2.col-md-6.col-12.mb-lg-0.mb-3
           img(src='@/assets/curso/temas/tema1/23.svg', alt='' style="width: 190px").mb-3.m-auto
           h5.text-center Salud, alimentación y nutrición
-        .icon-text.m-2.w-100
+        .col-lg-2.col-md-6.col-12.mb-lg-0.mb-3
           img(src='@/assets/curso/temas/tema1/24.svg', alt='' style="width: 190px").mb-3.m-auto
           h5.text-center Educación inicial
-        .icon-text.m-2.w-100
+        .col-lg-2.col-md-6.col-12.mb-lg-0.mb-3
           img(src='@/assets/curso/temas/tema1/25.svg', alt='' style="width: 190px").mb-3.m-auto
           h5.text-center Ejercicio de la ciudadanía y participación
-        .icon-text.m-2.w-100
+        .col-lg-2.col-md-6.col-12.mb-lg-0.mb-3
           img(src='@/assets/curso/temas/tema1/26.svg', alt='' style="width: 190px").mb-3.m-auto
           h5.text-center Recreación 
     .row.justify-content-center.mb-5
-      .col-lg-4.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema1/27.png', alt='')
-      .col-lg-8
+      .col-lg-4.col-8.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/27.png', alt='')
+      .col-lg-8(data-aos="fade-left")
         p La atención integral se encuentra, entonces, conformada por un conjunto de acciones intersectoriales, que se encuentran intencionalmente relacionadas y son efectivas, encaminadas en el aseguramiento de cada uno de los entornos en el cual se encuentren las niñas y los niños, contando con las condiciones necesarias y que garanticen la promoción y potenciación de su adecuado desarrollo.
           br
           br
           |Teniendo en cuenta lo anterior, las acciones que se aplicarán deben estar planificadas, ser continuas y permanentes, involucrando aspectos técnicos, políticos, entre otros, y que se encuentren en los ámbitos nacionales y del territorio. Para que la Atención Integral sea asegurada, debe contar con estos aspectos, según la Ley 1804 de 2016:
     .row.justify-content-center.mb-5
-      .col-lg-8.mb-lg-0.mb-3
+      .col-lg-8.mb-lg-0.mb-3(data-aos="fade-right")
         .tarjeta.p-2.color-acento-contenido.mb-3.rounded-2.mb-1
           h4.text-center.mb-0 Aspectos que aseguran una adecuada Atención Integral
         .tarjeta.p-4(style="background-color: #FFE0DD ")
@@ -240,7 +240,7 @@
           hr(style='background-color: #FFA69D').my-2 
           h5.mb-0 Complementaria
           p El proceso se lleva de manera continua e integral, con el fin de ampliar conceptos y características de la niña o niño, el cual se desarrolla en distintos medios y con cuidados diversos durante la edad.
-      .col-lg-4.d-lg-block.d-none: img(src='@/assets/curso/temas/tema1/28.png', alt='')
+      .col-lg-4.d-lg-block.d-none(data-aos="fade-left"): img(src='@/assets/curso/temas/tema1/28.png', alt='')
     Separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.2 Política de Atención Integral en Salud
@@ -390,23 +390,23 @@
             .col-lg-8
               img(src='@/assets/curso/temas/tema1/44.svg', alt='Texto alternativo: La imagen presenta el marco conceptual de la Política de Atención Integral en Salud, donde se presentan la entidad territorial, las EPS y las IPS.')
               figcaption Nota. Tomado de MinSalud (2016, p.31)
-    p.mb-3(data-aos='fade-right') La familia, por su parte, es el núcleo del sistema con base en la Atención Primaria que se definen con enfoque en Salud Familiar, con visión de abordar los diferentes riesgos y el cuidado, que permiten a su vez mantener las condiciones adecuadas en la población. Dentro de este modelo de Política de Atención, el elemento que enlaza a los otros tres elementos (Entidad territorial, IPS-RED y EPS) es la Gestión Integral en Salud, que aborda de manera colectiva, todos los riesgos encontrados en ambas partes, como lo indica el Plan Decenal de Salud Pública.
+    p.mb-5(data-aos='fade-right') La familia, por su parte, es el núcleo del sistema con base en la Atención Primaria que se definen con enfoque en Salud Familiar, con visión de abordar los diferentes riesgos y el cuidado, que permiten a su vez mantener las condiciones adecuadas en la población. Dentro de este modelo de Política de Atención, el elemento que enlaza a los otros tres elementos (Entidad territorial, IPS-RED y EPS) es la Gestión Integral en Salud, que aborda de manera colectiva, todos los riesgos encontrados en ambas partes, como lo indica el Plan Decenal de Salud Pública.
       br
       br
       |La Política de Atención Integral en Salud incluye como beneficios:
     ul.lista-ul--color
-      li.d-flex
+      li
         i.fas.fa-check
-        p.mb-o #[b Acceso integral en el proceso para la atención. ]
-      li.d-flex
+        | #[b Acceso integral en el proceso para la atención. ]
+      li
         i.fas.fa-check
-        p.mb-o #[b Estrategias con mayores soluciones en instituciones de primer nivel de atención con la IPS asignada y con un equipo preparado en atención primaria en salud. ]
-      li.d-flex
+        | #[b Estrategias con mayores soluciones en instituciones de primer nivel de atención con la IPS asignada y con un equipo preparado en atención primaria en salud. ]
+      li
         i.fas.fa-check
-        p.mb-o #[b Adecuados procesos para la autorización integral en la atención dentro de un grupo de riesgo o enfermedad. ]
-      li.d-flex
+        | #[b Adecuados procesos para la autorización integral en la atención dentro de un grupo de riesgo o enfermedad. ]
+      li
         i.fas.fa-check
-        p.mb-o #[b Acciones colectivas e individuales integradas con riesgo para la búsqueda y seguimiento activo por parte del asegurador. ]
+        | #[b Acciones colectivas e individuales integradas con riesgo para la búsqueda y seguimiento activo por parte del asegurador. ]
     .p-3(style="background-color: #E3EEFC").mb-4
       .row.justify-content-center
         .col-lg-1.mb-lg-0.mb-3.col-4: img(src='@/assets/curso/temas/tema1/45.svg', alt='')
@@ -415,9 +415,9 @@
     Separador 
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.3 Lineamientos técnicos y operativos de la Ruta Integral de Atención para la promoción y Mantenimiento de la Salud – Manual Técnico de la EDA-3
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb--lg5.mb-3
       .col-lg-8.mb-lg-0.mb-3(data-aos="fade-right"): p Teniendo en cuenta los lineamientos técnicos y operativos encontrados en la Resolución 3280 de 2018, en la cual se establece la ruta de atención adecuada para promoción y el mantenimiento de la salud, de acuerdo a la primera infancia y los rangos de edad establecidos en el manual técnico, que permite realizar el seguimiento de niñas y niños, estos permiten conocer los diferentes enfoques del desarrollo y crecimiento en los cuales se identifican las alteraciones que pueden prevenirse antes del completo y adecuado crecimiento de niñas y niños, quienes tienen una oportunidad para entrar en tratamiento con el trabajo realizado por personal de talento humano en salud, quienes a su vez están entrenados por medio de instrumentos y conocimientos claros hacia el enfoque no solo clínico sino también del ambiente encontrado en casa, reconociendo cuáles serán los cuidados que se deben establecer una vez se continúe el seguimiento durante su primera infancia.
-      .col-lg-4.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/tema1/46.png', alt='')
+      .col-lg-4.col-8(data-aos="fade-left").d-lg-block.d-none: img(src='@/assets/curso/temas/tema1/46.png', alt='')
     .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image':`url(${require('@/assets/curso/temas/tema1/47.jpg')})`}"
@@ -466,44 +466,44 @@
               h5.mb-0 Niveles del lenguaje
             table
               tr(style="background-color: #E3EEFC")
-                th 
+                th
                   ul.lista-ul
-                    li.d-flex
+                    li
                       i.fas.fa-circle.fa-xs(style="font-size: 5px")
-                      p.mb-0 Valorar el crecimiento y desarrollo (físico, motriz, cognitivo y socioemocional).
+                      | Valorar el crecimiento y desarrollo (físico, motriz, cognitivo y socioemocional).
 
-                    li.d-flex
+                    li
                       i.fas.fa-circle.fa-xs(style="font-size: 5px")
-                      p.mb-0 Valorar estado nutricional y antropométrico.
-                    li.d-flex
+                      | Valorar estado nutricional y antropométrico.
+                    li
                       i.fas.fa-circle.fa-xs(style="font-size: 5px")
-                      p.mb-0 Valorar las prácticas alimentarias.
+                      | Valorar las prácticas alimentarias.
 
-                    li.d-flex
+                    li
                       i.fas.fa-circle.fa-xs(style="font-size: 5px")
-                      p.mb-0 Valorar las estructuras dentomaxilofaciales y su funcionalidad.
+                      | Valorar las estructuras dentomaxilofaciales y su funcionalidad.
 
-                    li.d-flex
+                    li
                       i.fas.fa-circle.fa-xs(style="font-size: 5px")
-                      p.mb-0 Valorar la salud auditiva y comunicativa.
+                      | Valorar la salud auditiva y comunicativa.
 
-                    li.d-flex
+                    li
                       i.fas.fa-circle.fa-xs(style="font-size: 5px")
-                      p.mb-0 Valorar la salud visual.
-                    li.d-flex
+                      | Valorar la salud visual.
+                    li
                       i.fas.fa-circle.fa-xs(style="font-size: 5px")
-                      p.mb-0 Valorar la salud sexual.
+                      | Valorar la salud sexual.
 
-                    li.d-flex
+                    li
                       i.fas.fa-circle.fa-xs(style="font-size: 5px")
-                      p.mb-0 Valorar la salud mental, emocional y social.
+                      | Valorar la salud mental, emocional y social.
 
-                    li.d-flex
+                    li
                       i.fas.fa-circle.fa-xs(style="font-size: 5px")
-                      p.mb-0  Valorar la dinámica familiar como apoyo al desarrollo integral.
-                    li.d-flex
+                      |  Valorar la dinámica familiar como apoyo al desarrollo integral.
+                    li
                       i.fas.fa-circle.fa-xs(style="font-size: 5px")
-                      p.mb-0 Valorar el contexto social y las redes de apoyo social y comunitario.
+                      | Valorar el contexto social y las redes de apoyo social y comunitario.
           .tabla-b.color-primario.mb-5
             .tabla-b__header.rounded-3
               h5.mb-0 Identificar, gestionar riesgos y desarrollar atenciones de protección específica
@@ -511,13 +511,13 @@
               tr(style="background-color: #E3EEFC")
                 th 
                   ul.lista-ul
-                    li.d-flex
+                    li
                       i.fas.fa-circle.fa-xs(style="font-size: 5px")
-                      p.mb-0 Aplicar, verificar u ordenar pruebas tamiz para detección temprana de alteraciones en la salud.
+                      | Aplicar, verificar u ordenar pruebas tamiz para detección temprana de alteraciones en la salud.
 
-                    li.d-flex
+                    li
                       i.fas.fa-circle.fa-xs(style="font-size: 5px")
-                      p.mb-0 Verificar atenciones de protección específica en el marco de la RPMS (esquema de vacunación, suministro de micronutrientes y desparasitación intestinal, atenciones de salud bucal, entre otros).
+                      | Verificar atenciones de protección específica en el marco de la RPMS (esquema de vacunación, suministro de micronutrientes y desparasitación intestinal, atenciones de salud bucal, entre otros).
           .tabla-b.color-primario.mb-5
             .tabla-b__header.rounded-3
               h5.mb-0 Potenciar capacidades
@@ -525,12 +525,12 @@
               tr(style="background-color: #E3EEFC")
                 th 
                   ul.lista-ul
-                    li.d-flex
+                    li
                       i.fas.fa-circle.fa-xs(style="font-size: 5px")
-                      p.mb-0 • Información en salud a las niñas, niños, sus familias o cuidadores.
+                      | Información en salud a las niñas, niños, sus familias o cuidadores.
     Separador
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 1.4. Valoración integral en salud en primera infancia
+      h2 1.4 Valoración integral en salud en primera infancia
     .row.justify-content-center.mb-5
       .col-lg-8.mb-lg-0.mb-3(data-aos="fade-right")
         p  La valoración y seguimiento realizado, no solo inicia desde la primera infancia o la vida extrauterina; este proceso viene desde la concepción, en donde la madre gestante estará con controles prenatales, los cuales permiten la prevención o tratamiento oportuno de diagnósticos que pueden presentarse durante su etapa gestacional. Una vez comprendido esto, el seguimiento y control para la valoración integral en la primera infancia sigue su trayecto desde el nacimiento de la niña o el niño, el cual requiere de atención oportuna en su crecimiento y desarrollo, los cuales están a cargo de intervenciones, y el trabajo integral entre profesionales de salud entrenados y la orientación y capacitación a padres y/o cuidadores del menor.
@@ -551,156 +551,179 @@
           br
           |Se consideran #[b niñas y niños con mayor riesgo], aquellos con presencia de uno o más de los siguientes factores o antecedentes:
     .mn(style="background-color:#FFE0DD ").p-5.mb-5
-      .tarjeta.rounded-3.color-acento-contenido.p-2
+      .tarjeta.rounded-3.color-acento-contenido.p-2(data-aos="fade-right")
         h4.mb-0.mx-2.text-center Condiciones perinatales y neonatales
-      .p-4(style="background-color: #AFCDF5 ").mb-5
+      .p-4(style="background-color: #AFCDF5 ").mb-5(data-aos="zoom-in")
         .row.justify-content-center
-          .col-lg-4.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema1/57.png', alt='')
+          .col-lg-4.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema1/57.png', alt='')
           .col-lg-8
-            p • Bajo peso al nacer: menor de 2500 gramos. La atención se realizará según los Lineamientos del Programa Madre Canguro que estén vigentes.
+            p • #[b Bajo peso al nacer:] menor de 2500 gramos. La atención se realizará según los Lineamientos del Programa Madre Canguro que estén vigentes.
               br
               br
-              |• Prematurez: edad gestacional menor de 37 semanas, cuya atención se realizará según los Lineamientos del Programa Madre Canguro que estén vigentes.
+              |• #[b Prematurez:] edad gestacional menor de 37 semanas, cuya atención se realizará según los Lineamientos del Programa Madre Canguro que estén vigentes.
               br
               br
-              |• Hospitalización neonatal mayor a 7 días.
+              |• #[b Hospitalización neonatal mayor a 7 días.]
               br
               br
-              |• Patología perinatal o neonatal significativa: por ejemplo: asfixia perinatal, trastornos metabólicos persistentes, convulsiones, trastornos respiratorios, sepsis neonatal temprana que no respondió a primera línea de antibiótico; necesidad de reanimación neonatal, ventilación mecánica, cirugía neonatal, terapia de reemplazo renal, punción lumbar, o cualquier otro estudio o procedimiento invasivo.
+              |• #[b Patología perinatal o neonatal significativa:] por ejemplo: asfixia perinatal, trastornos metabólicos persistentes, convulsiones, trastornos respiratorios, sepsis neonatal temprana que no respondió a primera línea de antibiótico; necesidad de reanimación neonatal, ventilación mecánica, cirugía neonatal, terapia de reemplazo renal, punción lumbar, o cualquier otro estudio o procedimiento invasivo.
               br
               br
-              |• Hija(o) de madre con infección gestacional o perinatal con alto riesgo de malformaciones, problemas del desarrollo o necesidad de atención especial en salud en el niño (Por ej: exposición a Sífilis, Toxoplasmosis, Rubéola, Citomegalovirus, Herpes virus, VIH, Zika virus). • Hija(o) de madre con complicaciones durante la gestación que hayan tenido repercusión en el hijo (en edad fetal, perinatal, neonatal o durante el primer año de vida).
-      .tarjeta.rounded-3.color-acento-contenido.p-2
+              |•  Hija(o) de madre con #[b infección gestacional o perinatal con alto riesgo] de malformaciones, problemas del desarrollo o necesidad de atención especial en salud en el niño (Por ej: exposición a Sífilis, Toxoplasmosis, Rubéola, Citomegalovirus, Herpes virus, VIH, Zika virus). 
+              br
+              br
+              |• Hija(o) de madre con #[b complicaciones durante la gestación] que hayan tenido repercusión en el hijo (en edad fetal, perinatal, neonatal o durante el primer año de vida).
+      .tarjeta.rounded-3.color-acento-contenido.p-2(data-aos="fade-right")
         h4.mb-0.mx-2.text-center Alteraciones de la salud o el desarrollo
-      .p-4(style="background-color: #AFCDF5 ").mb-5
+      .p-4(style="background-color: #AFCDF5 ").mb-5(data-aos="zoom-in")
         .row.justify-content-center
-          .col-lg-4.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema1/58.png', alt='')
+          .col-lg-4.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema1/58.png', alt='')
           .col-lg-8
-            p • Anomalía congénita mayor o múltiple.
+            p • #[b Anomalía congénita mayor o múltiple.]
               br
               br
-              |• Niñas o niños con sospecha de problemas del desarrollo infantil (Por ej: retraso, disociación, desviación o regresión del desarrollo).
+              |• Niñas o niños con #[b sospecha de problemas del desarrollo infantil] (Por ej: retraso, disociación, desviación o regresión del desarrollo).
               br
               br
-              |• Niña(o) con tamizaje o estudio positivo para alteraciones congénitas (hipotiroidismo congénito, errores innatos del metabolismo, hipoacusia, problemas visuales, etc.) o con sospecha de síndrome genético (Síndrome de Down, Intersexualidad, etc.). 
+              |• Niña(o) con #[b tamizaje o estudio positivo para alteraciones congénitas] (hipotiroidismo congénito, errores innatos del metabolismo, hipoacusia, problemas visuales, etc.) o con sospecha de síndrome genético (Síndrome de Down, Intersexualidad, etc.). 
               br
               br
-              |• Niñas o niños que presenten un evento de interés en salud pública.
-      .tarjeta.rounded-3.color-acento-contenido.p-2
+              |• Niñas o niños que presenten un #[b evento de interés en salud pública.]
+      .tarjeta.rounded-3.color-acento-contenido.p-2(data-aos="fade-right")
         h4.mb-0.mx-2.text-center Condiciones sociales o familiares de riesgo
-      .p-4(style="background-color: #AFCDF5 ").mb-5
+      .p-4(style="background-color: #AFCDF5 ").mb-5(data-aos="zoom-in")
         .row.justify-content-center
-          .col-lg-4.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema1/59.png', alt='')
+          .col-lg-4.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema1/59.png', alt='')
           .col-lg-8
-            p • Hija(o) de madre con sospecha o diagnóstico de depresión postparto.
+            p • Hija(o) de madre con sospecha o diagnóstico de #[b depresión postparto.]
               br
               br
-              |• Hija(o) de padres (especialmente la madre) con consumo de sustancias psicoactivas, incluyendo aquellos con riesgo o sospecha de repercusión por consumo de sustancias psicoactivas (por ejemplo, síndrome de alcoholismo fetal, anomalías congénitas, retraso en el desarrollo, síndrome de abstinencia, etc.).
+              |• Hija(o) de padres (especialmente la madre) con #[b consumo de sustancias psicoactivas], incluyendo aquellos con riesgo o sospecha de repercusión por consumo de sustancias psicoactivas (por ejemplo, síndrome de alcoholismo fetal, anomalías congénitas, retraso en el desarrollo, síndrome de abstinencia, etc.).
               br
               br
-              |• Hija(o) de padres con enfermedad mental con impacto en la estabilidad (estructural o funcional) de la familia o en el cuidado de los niños.
+              |• Hija(o) de #[b padres con enfermedad mental] con impacto en la estabilidad (estructural o funcional) de la familia o en el cuidado de los niños.
               br
               br
-              |• Niña(o) acompañante de mujer en privación de la libertad en centro carcelario.
+              |• Niña(o) #[b acompañante de mujer en privación de la libertad en centro carcelario.]
               br
               br
-              |• Niñas o niños con padres o hermanos con enfermedad catastrófica (incluyendo las neoplasias y las condiciones degenerativas), con discapacidad o con otra condición o situación que afecte negativamente el cuidado del niño en primera infancia.
+              |• Niñas o niños con #[b padres o hermanos con enfermedad catastrófica] (incluyendo las neoplasias y las condiciones degenerativas), con discapacidad o con otra condición o situación que afecte negativamente el cuidado del niño en primera infancia.
               br
               br
-              |• Niñas o niños víctimas de vulneración o violación de derechos humanos con o sin proceso de restablecimiento de derechos en curso (por ejemplo, víctimas de violencia física, psicológica, sexual, negligencia y abandono en el ámbito familiar, escolar, institucional, comunitario, etc., intrafamiliar o testigos de violencia intrafamiliar, abandonados, explotados, secuestrados, traficados o expuestos al consumo de alcohol u otras sustancias psicoactivas).
+              |• Niñas o niños #[b víctimas de vulneración o violación de derechos humanos] con o sin proceso de restablecimiento de derechos en curso (por ejemplo, víctimas de violencia física, psicológica, sexual, negligencia y abandono en el ámbito familiar, escolar, institucional, comunitario, etc., intrafamiliar o testigos de violencia intrafamiliar, abandonados, explotados, secuestrados, traficados o expuestos al consumo de alcohol u otras sustancias psicoactivas).
               br
               br
-              |• Niñas o niños perteneciente a un hogar en pobreza extrema o en situación de calle.
-      .tarjeta.rounded-3.color-acento-contenido.p-2
+              |• Niñas o niños perteneciente a un hogar en #[b pobreza extrema o en situación de calle.]
+      .tarjeta.rounded-3.color-acento-contenido.p-2(data-aos="fade-right")
         h4.mb-0.mx-2.text-center Condiciones crónicas - discapacidad
-      .p-4(style="background-color: #AFCDF5 ").mb-5
+      .p-4(style="background-color: #AFCDF5 ").mb-5(data-aos="zoom-in")
         .row.justify-content-center
-          .col-lg-4.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema1/60.png', alt='')
+          .col-lg-4.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema1/60.png', alt='')
           .col-lg-8
-            p • Condición crónica (neurológica, cardiovascular, respiratoria, metabólica, endocrinológica, gastrointestinal, renal o de otro tipo).
+            p • #[b Condición crónica] (neurológica, cardiovascular, respiratoria, metabólica, endocrinológica, gastrointestinal, renal o de otro tipo).
               br
               br
-              |• Discapacidad (de cualquier tipo o con alto riesgo de presentarla por una condición identificada, por ejemplo, anotia, anoftalmia, agenesia de extremidades, resultados de estudio metabólico para enfermedades neurodegenerativas, etc.).
+              |• #[b Discapacidad] (de cualquier tipo o con alto riesgo de presentarla por una condición identificada, por ejemplo, anotia, anoftalmia, agenesia de extremidades, resultados de estudio metabólico para enfermedades neurodegenerativas, etc.).
               br
               br
-              |• Niña(o) con necesidad de tratamiento con medicamentos de forma crónica.
+              |• Niña(o) con necesidad de #[b tratamiento con medicamentos de forma crónica.]
               br
               br
-              |• Niña(o) con antecedente de hospitalizaciones recurrentes (más de 3 en el último año), hospitalizaciones prolongadas (mayores a 2 semanas) o que haya necesitado atención en Unidad de Cuidados Intensivos Pediátricos.
+              |• Niña(o) con #[b antecedente de hospitalizaciones recurrentes] (más de 3 en el último año), hospitalizaciones prolongadas (mayores a 2 semanas) o que haya necesitado atención en Unidad de Cuidados Intensivos Pediátricos.
     p.mb-5(data-aos='fade-right') Teniendo en cuenta la definición de lo que es y tiene por objetivo una valoración integral en primera infancia, se debe recordar que, de encontrarse algún factor de riesgo, se procede de acuerdo a lo establecido en la Resolución 3280 de 2018 y los protocolos institucionales a cargo de las intervenciones que sean definidas por profesionales entrenados para la atención de la niña o niño. A continuación, se expone el procedimiento indicado de acuerdo con la resolución mencionada, para la recopilación de información, que incluya indagación de antecedentes y revisión por sistemas.
-    .tarjeta.rounded-3.color-acento-contenido.p-2.mb-5
+    .tarjeta.rounded-3.color-acento-contenido.p-2(data-aos="fade-right").mb-5
         h4.mb-0.mx-2.text-center Proceso de indagación
     .tarjeta.bg-slyder.p-5.mb-5
       SlyderA(tipo='b')
-        .row
+        .row.mx-3.justify-content-center
           .col-lg-7.mb-4.mb-md-0
-            .contenido-texto.d-flex
-              .numero.me-3
-                p.h2.m-4 1 
-              p Antecedentes personales, médicos, hospitalarios, transfusionales, farmacológicos, exposición al humo de tabaco, alérgicos, quirúrgicos, vacunación, comportamiento general y relaciones interpersonales.
+            .row.justify-content-center.mb-5
+              .col-2.mb-lg-0.mb-3
+                .numero
+                  p.h2.m-4 1 
+              .col-lg-10
+                p Antecedentes personales, médicos, hospitalarios, transfusionales, farmacológicos, exposición al humo de tabaco, alérgicos, quirúrgicos, vacunación, comportamiento general y relaciones interpersonales.
           .col-lg-5.col-8: img(src='@/assets/curso/temas/tema1/61.png', alt='')
-        .row
+        .row.mx-3.justify-content-center
           .col-lg-7.mb-4.mb-md-0
-            .contenido-texto.d-flex
-              .numero.me-3
-                p.h2.m-4 2
-              p Antecedentes familiares con énfasis en: enfermedades hereditarias, asma, tuberculosis, dermatitis atópica, problemas de desarrollo infantil, antecedente de muerte en hermanos, antecedentes de salud mental de los padres, consumo de alcohol u otras sustancias psicoactivas, exposición a violencias de cualquier tipo, sucesos vitales (duelo, divorcio de los padres).
+            .row.justify-content-center.mb-5
+              .col-2.mb-lg-0.mb-3
+                .numero
+                  p.h2.m-4 2
+              .col-lg-10
+                p Antecedentes familiares con énfasis en: enfermedades hereditarias, asma, tuberculosis, dermatitis atópica, problemas de desarrollo infantil, antecedente de muerte en hermanos, antecedentes de salud mental de los padres, consumo de alcohol u otras sustancias psicoactivas, exposición a violencias de cualquier tipo, sucesos vitales (duelo, divorcio de los padres).
           .col-lg-5.col-8: img(src='@/assets/curso/temas/tema1/62.png', alt='')
-        .row
+        .row.mx-3.justify-content-center
           .col-lg-7.mb-4.mb-md-0
-            .contenido-texto.d-flex
-              .numero.me-3
-                p.h2.m-4 3
-              p Indagar sobre el progreso en los hitos del desarrollo de la niña(o), sobre la adaptación e integración en los entornos de educación inicial, así como preocupaciones de los padres o cuidadores respecto al desarrollo de los niños.
+            .row.justify-content-center.mb-5
+              .col-2.mb-lg-0.mb-3
+                .numero
+                  p.h2.m-4 3
+              .col-lg-10
+                p Indagar sobre el progreso en los hitos del desarrollo de la niña(o), sobre la adaptación e integración en los entornos de educación inicial, así como preocupaciones de los padres o cuidadores respecto al desarrollo de los niños.
           .col-lg-5.col-8: img(src='@/assets/curso/temas/tema1/63.png', alt='')
-        .row
+        .row.mx-3.justify-content-center
           .col-lg-7.mb-4.mb-md-0
-            .contenido-texto.d-flex
-              .numero.me-3
-                p.h2.m-4 4
-              p Prácticas de crianza y cuidado (comunicación con la niña o el niño y expresión de afecto, actividades para favorecer el desarrollo y juego, exposición a pantallas, establecimiento de límites, vivencia de violencia en el hogar, prevención de accidentes incluyendo seguridad vial).
+            .row.justify-content-center.mb-5
+              .col-2.mb-lg-0.mb-3
+                .numero
+                  p.h2.m-4 4
+              .col-lg-10
+                p Prácticas de crianza y cuidado (comunicación con la niña o el niño y expresión de afecto, actividades para favorecer el desarrollo y juego, exposición a pantallas, establecimiento de límites, vivencia de violencia en el hogar, prevención de accidentes incluyendo seguridad vial).
           .col-lg-5.col-8: img(src='@/assets/curso/temas/tema1/64.png', alt='')
-        .row
+        .row.mx-3.justify-content-center
           .col-lg-7.mb-4.mb-md-0
-            .contenido-texto.d-flex
-              .numero.me-3
-                p.h2.m-4 5
-              p Alimentación en la niña(o) menor de 6 meses haciendo énfasis en la lactancia materna (indagar lactancia materna no exclusiva - Indagando si el niña(o) ha recibido cualquier líquido, alimento o leche diferente a la materna el día o noche anterior). Alimentación de la niña(o) mayor de 6 meses indagar sobre consumo y hábitos alimentarios indicando tipo de alimentos, frecuencia de consumo, cantidad, forma de preparación y texturas, adición de sal y azúcar y tipo de alimentos, para lo cual puede ser útil la indagación de la alimentación en las últimas 24 horas. Verificar si después del año ya consume la dieta familiar.
+            .row.justify-content-center.mb-5
+              .col-2.mb-lg-0.mb-3
+                .numero
+                  p.h2.m-4 5
+              .col-lg-10
+                p Alimentación en la niña(o) menor de 6 meses haciendo énfasis en la lactancia materna (indagar lactancia materna no exclusiva - Indagando si el niña(o) ha recibido cualquier líquido, alimento o leche diferente a la materna el día o noche anterior). Alimentación de la niña(o) mayor de 6 meses indagar sobre consumo y hábitos alimentarios indicando tipo de alimentos, frecuencia de consumo, cantidad, forma de preparación y texturas, adición de sal y azúcar y tipo de alimentos, para lo cual puede ser útil la indagación de la alimentación en las últimas 24 horas. Verificar si después del año ya consume la dieta familiar.
           .col-lg-5.col-8: img(src='@/assets/curso/temas/tema1/65.png', alt='')
-        .row
+        .row.mx-3.justify-content-center
           .col-lg-7.mb-4.mb-md-0
-            .contenido-texto.d-flex
-              .numero.me-3
-                p.h2.m-4 6
-              p Verificar la realización y los resultados de las pruebas de tamizaje neonatal (auditivo por tecnología dura, tamizaje de errores innatos del metabolismo por muestra de sangre, cardiopatía congénita y visual por examen físico).
+            .row.justify-content-center.mb-5
+              .col-2.mb-lg-0.mb-3
+                .numero
+                  p.h2.m-4 6
+              .col-lg-10
+                p Verificar la realización y los resultados de las pruebas de tamizaje neonatal (auditivo por tecnología dura, tamizaje de errores innatos del metabolismo por muestra de sangre, cardiopatía congénita y visual por examen físico).
           .col-lg-5.col-8: img(src='@/assets/curso/temas/tema1/66.png', alt='')
-        .row
+        .row.mx-3.justify-content-center
           .col-lg-7.mb-4.mb-md-0
-            .contenido-texto.d-flex
-              .numero.me-3
-                p.h2.m-4 7 
-              p Establecimiento de rutinas y hábitos saludables relacionados con: el sueño, baño, cambio de pañal (cuántas veces al día, características de la deposición), lavado de manos, cuidado bucal, foto protección, evolución del control de esfínteres a partir de dos (2) años y limpieza del área perineal y juego o movimiento activo de acuerdo a la edad.
+            .row.justify-content-center.mb-5
+              .col-2.mb-lg-0.mb-3
+                .numero
+                  p.h2.m-4 7 
+              .col-lg-10
+                p Establecimiento de rutinas y hábitos saludables relacionados con: el sueño, baño, cambio de pañal (cuántas veces al día, características de la deposición), lavado de manos, cuidado bucal, foto protección, evolución del control de esfínteres a partir de dos (2) años y limpieza del área perineal y juego o movimiento activo de acuerdo a la edad.
           .col-lg-5.col-8: img(src='@/assets/curso/temas/tema1/67.png', alt='')
-        .row
+        .row.mx-3.justify-content-center
           .col-lg-7.mb-4.mb-md-0
-            .contenido-texto.d-flex
-              .numero.me-3
-                p.h2.m-4 8 
-              p Valoración o actualización de las condiciones de vida, del contexto social y las redes de apoyo social y comunitarias de la familia, pertenencia social y cultural que considere pertenencia étnica a través de Ecomapa.
+            .row.justify-content-center.mb-5
+              .col-2.mb-lg-0.mb-3
+                .numero
+                  p.h2.m-4 8 
+              .col-lg-10
+                p Valoración o actualización de las condiciones de vida, del contexto social y las redes de apoyo social y comunitarias de la familia, pertenencia social y cultural que considere pertenencia étnica a través de Ecomapa.
           .col-lg-5.col-8: img(src='@/assets/curso/temas/tema1/68.png', alt='')
-        .row
+        .row.mx-3.justify-content-center
           .col-lg-7.mb-4.mb-md-0
-            .contenido-texto.d-flex
-              .numero.me-3
-                p.h2.m-4 9
-              p Avance en los compromisos acordados en sesiones de educación para la salud individual previas así como otras inquietudes de los padres.
+            .row.justify-content-center.mb-5
+              .col-2.mb-lg-0.mb-3
+                .numero
+                  p.h2.m-4 9
+              .col-lg-10
+                p Avance en los compromisos acordados en sesiones de educación para la salud individual previas así como otras inquietudes de los padres.
           .col-lg-5.col-8: img(src='@/assets/curso/temas/tema1/69.png', alt='')
-        .row
+        .row.mx-3.justify-content-center
           .col-lg-7.mb-4.mb-md-0
-            .contenido-texto.d-flex
-              .numero.me-3
-                p.h2.m-4 10
-              p Valoración o actualización de la conformación y dinámica de la familia a través del Familiograma, indagar sobre las capacidades y recursos personales y familiares que inciden en el cuidado de la salud familiar, evaluar el grado de satisfacción de la funcionalidad familiar, a través del #[b Apgar familiar.]
+            .row.justify-content-center.mb-5
+              .col-2.mb-lg-0.mb-3
+                .numero
+                  p.h2.m-4 10
+              .col-lg-10
+                p Valoración o actualización de la conformación y dinámica de la familia a través del Familiograma, indagar sobre las capacidades y recursos personales y familiares que inciden en el cuidado de la salud familiar, evaluar el grado de satisfacción de la funcionalidad familiar, a través del #[b Apgar familiar.]
           .col-lg-5.col-8: img(src='@/assets/curso/temas/tema1/70.png', alt='')
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -723,7 +746,7 @@
       br
       br
       |Inicialmente, se deben reconocer los signos vitales. Deben tomarse e interpretarse de acuerdo con la edad de la niña o el niño; estas constantes vitales son: frecuencia cardiaca, frecuencia respiratoria, temperatura, saturación por pulso oximetría. Para la toma de tensión arterial debe tenerse en cuenta que se realiza a niñas o niños mayores de 3 años o a menores de esta edad. Si tienen síntomas recurrentes de cualquier tipo o antecedente de cateterización umbilical en su edad neonatal, se debe tener presente la tabla de valores de constantes vitales según corresponda la edad de cada niña o niño; a continuación, se muestra visualmente cada uno de estos valores.
-    .tarjeta.rounded-3.color-acento-contenido.p-2.mb-5
+    .tarjeta.rounded-3.color-acento-contenido.p-2(data-aos="fade-right").mb-5
         h4.mb-0.mx-2.text-center Valores de los signos vitales
     TabsC.color-acento-botones.mb-5
       .py-4.py-md-5(titulo="Valores de frecuencia cardiaca ")
@@ -851,7 +874,7 @@
               figure
                 img(src='@/assets/curso/temas/tema1/73.svg', alt='')      
             .col-lg-10
-              p Pretende realizar el seguimiento presentado en el desarrollo de las niñas o los niños en primera infancia con apoyo de padres y/o cuidadores, maestros quienes se encuentran en el entorno y cumplen un papel vital sobre el desarrollo de la niña o el niño, y que a través de la aplicación directa de la Escala Abreviada de Desarrollo-3, ante la sospecha de alteraciones del desarrollo, se pudiera aplicar también el test M-Chat R/F, instrumento útil para tamizaje del trastorno del espectro autista, específicamente, a todas las niñas y los niños entre los 18 y los 30 meses de edad.
+              p Pretende realizar el seguimiento presentado en el desarrollo de las niñas o los niños en primera infancia con apoyo de padres y/o cuidadores, maestros quienes se encuentran en el entorno y cumplen un papel vital sobre el desarrollo de la niña o el niño, y que a través de la aplicación directa de la #[b Escala Abreviada de Desarrollo-3], ante la sospecha de alteraciones del desarrollo, se pudiera aplicar también el test #[b M-Chat R/F], instrumento útil para tamizaje del trastorno del espectro autista, específicamente, a todas las niñas y los niños entre los 18 y los 30 meses de edad.
           .row(titulo="Valoración del estado nutricional y de parámetros antropométricos")
             .col-lg-2.col-4.mb-lg-0.mb-3
               figure
@@ -875,7 +898,7 @@
               figure
                 img(src='@/assets/curso/temas/tema1/77.svg', alt='')      
             .col-lg-10
-              p Se realiza una inspección del oído, que debe encontrarse íntegro a través de la valoración visual, la otoscopia, y de las funciones de la articulación, voz, habla y desempeño para comunicarse. Se recomienda aplicar la lista de chequeo de factores de riesgo de las enfermedades del oído, alteraciones auditivas, vestibulares y de la comunicación. Durante la consulta se debe aplicar el cuestionario VALE. Verificar resultado de tamizaje auditivo, especialmente en niños y niñas con riesgo de hipoacusia.
+              p Se realiza una inspección del oído, que debe encontrarse íntegro a través de la valoración visual, la otoscopia, y de las funciones de la articulación, voz, habla y desempeño para comunicarse. Se recomienda aplicar #[b la lista de chequeo de factores de riesgo de las enfermedades del oído, alteraciones auditivas, vestibulares y de la comunicación.] Durante la consulta se debe aplicar el cuestionario #[b VALE.] Verificar resultado de tamizaje auditivo, especialmente en niños y niñas con riesgo de hipoacusia.
           .row(titulo="Valoración de la salud bucal")
             .col-lg-2.col-4.mb-lg-0.mb-3
               figure
@@ -903,10 +926,10 @@
                   h4.mb-1 Valoración de la salud auditiva y comunicativa
                   p.mb-0.text-small Durante la consulta se debe aplicar el cuestionario VALE. El siguiente video expone la aplicación de este instrumento.
                 .col-sm-auto
-                  a.boton.color-acento-botones(href='https://www.youtube.com/watch?v=hqgNAfBtYII&feature=youtu.be')
+                  a.boton.color-acento-botones(href='https://www.youtube.com/watch?v=hqgNAfBtYII&feature=youtu.be' target="_blank")
                     span.text-white Ver video
                     i.fas.fa-video(style="color: white") 
-                cta
+                
     .p-3(style="background-color: #E3EEFC").mb-4
       .row.justify-content-center
         .col-lg-1.mb-lg-0.mb-3.col-4: img(src='@/assets/curso/temas/tema1/81.svg', alt='')
@@ -978,64 +1001,64 @@
         .col-lg-4.mb-lg-0.mb-3
           div(style="background-color:#AFCDF5; border-radius: 10px 10px 0px 0px ").p-3
             h5.text-center.mb-0 Instrumentos
-          div.h-100(style="background-color: #E3EEFC; border-radius: 0px 0px 10px 10px ").p-3
+          div.h-100(style="background-color: #E3EEFC; border-radius: 0px 0px 10px 10px ").p-3.editada
             ul.lista-ul
-              li.d-flex
+              li
                 i.fas.fa-circle.fa-xs(style="font-size: 5px")
-                p.mb-0 #[b Tablas y gráficas de los patrones de referencia para clasificación nutricional.]
+                | #[b Tablas y gráficas de los patrones de referencia para clasificación nutricional.]
 
-              li.d-flex
+              li
                 i.fas.fa-circle.fa-xs(style="font-size: 5px")
-                p.mb-0 #[b Escala Abreviada de Desarrollo-3 con su kit de materiales. Test M-Chat R/F.]
+                | #[b Escala Abreviada de Desarrollo-3 con su kit de materiales. Test M-Chat R/F.]
 
-              li.d-flex
+              li
                 i.fas.fa-circle.fa-xs(style="font-size: 5px")
-                p.mb-0 #[b Cuestionario VALE.] Lista de chequeo de factores de riesgo de las enfermedades del oído, alteraciones auditivas, vestibulares y de la comunicación.
+                | #[b Cuestionario VALE.] Lista de chequeo de factores de riesgo de las enfermedades del oído, alteraciones auditivas, vestibulares y de la comunicación.
 
-              li.d-flex
+              li
                 i.fas.fa-circle.fa-xs(style="font-size: 5px")
-                p.mb-0 #[b APGAR familiar.] Familiograma (sugerido).
+                | #[b APGAR familiar.] Familiograma (sugerido).
         .col-lg-4.mb-lg-0.mb-3.align-self-end
           .d-flex.h-100
             img(src='@/assets/curso/temas/tema1/89.svg', alt='').align-self-end
         .col-lg-4.mb-lg-0.mb-3
           div(style="background-color:#AFCDF5; border-radius: 10px 10px 0px 0px ").p-3
             h5.text-center.mb-0 Insumos y materiales para examen físico pediátrico
-          div.h-100(style="background-color: #E3EEFC; border-radius: 0px 0px 10px 10px ").p-3
+          div.h-100(style="background-color: #E3EEFC; border-radius: 0px 0px 10px 10px ").p-3.editada
             ul.lista-ul
-              li.d-flex.mb-1
+              li.mb-1
                 i.fas.fa-circle.fa-xs(style="font-size: 5px")
-                p.mb-0 Fonendoscopio. 
-              li.d-flex.mb-1
+                | Fonendoscopio. 
+              li.mb-1
                 i.fas.fa-circle.fa-xs(style="font-size: 5px")
-                p.mb-0 Equipo de órganos. 
-              li.d-flex.mb-1
+                | Equipo de órganos. 
+              li.mb-1
                 i.fas.fa-circle.fa-xs(style="font-size: 5px")
-                p.mb-0 Tensiómetro pediátrico. 
-              li.d-flex.mb-1
+                | Tensiómetro pediátrico. 
+              li.mb-1
                 i.fas.fa-circle.fa-xs(style="font-size: 5px")
-                p.mb-0 Cinta métrica.
-              li.d-flex.mb-1
+                | Cinta métrica.
+              li.mb-1
                 i.fas.fa-circle.fa-xs(style="font-size: 5px")
-                p.mb-0 Pulso-oxímetro.
-              li.d-flex.mb-1
+                | Pulso-oxímetro.
+              li.mb-1
                 i.fas.fa-circle.fa-xs(style="font-size: 5px")
-                p.mb-0 Optotipos morfoscópicos o angulares para agudeza visual etc.
+                | Optotipos morfoscópicos o angulares para agudeza visual etc.
 
-              li.d-flex.mb-1
+              li.mb-1
                 i.fas.fa-circle.fa-xs(style="font-size: 5px")
-                p.mb-0 Balanza pesa bebé y balanza de pie. 
-              li.d-flex.mb-1
+                | Balanza pesa bebé y balanza de pie. 
+              li.mb-1
                 i.fas.fa-circle.fa-xs(style="font-size: 5px")
-                p.mb-0 Infantómetro y tallímetro.
+                | Infantómetro y tallímetro.
 
-              li.d-flex.mb-1
+              li.mb-1
                 i.fas.fa-circle.fa-xs(style="font-size: 5px")
-                p.mb-0 Tablas de percentiles de tensión arterial para niños y para niñas.
+                | Tablas de percentiles de tensión arterial para niños y para niñas.
 
-              li.d-flex.mb-1
+              li.mb-1
                 i.fas.fa-circle.fa-xs(style="font-size: 5px")
-                p.mb-0 Carné de salud infantil.
+                | Carné de salud infantil.
     .p-3(style="background-color: #E3EEFC").mb-4
       .row.justify-content-center
         .col-lg-1.mb-lg-0.mb-3.col-4: img(src='@/assets/curso/temas/tema1/90.svg', alt='')
@@ -1047,7 +1070,7 @@
           br
           br
           |A pesar de los esfuerzos que han realizado los países en mejorar la supervivencia, la nutrición y la educación, en las últimas décadas, el futuro de las niñas y los niños se ve directamente afectado por condiciones como el cambio climático, la degradación ecológica, la migración, las situaciones de conflicto armado, así como persistencia de las inequidades sociales.
-      .col-lg-4.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/tema1/91.png', alt='')
+      .col-lg-4.col-8.d-none.d-lg-block(data-aos="fade-left"): img(src='@/assets/curso/temas/tema1/91.png', alt='')
     .p-3(style="background-color: #E3EEFC").mb-4
       .row.justify-content-center
         .col-lg-1.mb-lg-0.mb-3.col-4: img(src='@/assets/curso/temas/tema1/92.svg', alt='')
@@ -1061,7 +1084,7 @@
       .row.justify-content-center
         .col-lg-1.mb-lg-0.mb-3.col-4: img(src='@/assets/curso/temas/tema1/94.svg', alt='')
         .col-lg-11
-          p En coherencia con la evidencia disponible, se ha corroborado que las inversiones en primera infancia son las más costo efectivas por la rentabilidad económica que genera para los países que las realizan; teniendo en cuenta que la primera infancia es el periodo de mayor plasticidad cerebral y neurogénesis, y se constituye en un periodo crítico para el desarrollo de habilidades cognitivas y psicosociales que son fundamentales para el aprendizaje, mejorando el rendimiento escolar y la calidad de la vida adulta en general. Debe considerase una prioridad la inversión en salud y educación de la niñez, así como propender por la protección de sus derechos. Intervenir en la infancia tiene efectos intergeneracionales para toda la vida.
+          p En coherencia con la evidencia disponible, se ha corroborado que las inversiones en primera infancia son las más costo efectivas por la rentabilidad económica que genera para los países que las realizan; teniendo en cuenta que la primera infancia es el periodo de mayor plasticidad cerebral y neurogénesis, y se constituye en un periodo crítico para el desarrollo de habilidades cognitivas y psicosociales que son fundamentales para el aprendizaje, mejorando el rendimiento escolar y la calidad de la vida adulta en general. Debe considerase una prioridad la inversión en salud y educación de la niñez, así como propender por la protección de sus derechos. #[b Intervenir en la infancia tiene efectos intergeneracionales para toda la vida.]
             br
             br
             |En los procesos de la valoración del desarrollo de las niñas y los niños deben tomarse en cuenta como importante factor contribuyente, los determinantes sociales, marcadores fundamentales de los resultados positivos o negativos al final del proceso
@@ -1078,7 +1101,7 @@
 
 <script>
 export default {
-  name: "Tema1",
+  name: 'Tema1',
   components: {},
   data: () => ({
     modal1: false,
@@ -1088,13 +1111,13 @@ export default {
   }),
   mounted() {
     this.$nextTick(() => {
-      this.$aosRefresh();
-    });
+      this.$aosRefresh()
+    })
   },
   updated() {
-    this.$aosRefresh();
+    this.$aosRefresh()
   },
-};
+}
 </script>
 
 <style lang="sass"></style>
