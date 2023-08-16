@@ -93,7 +93,7 @@
               img(src='@/assets/curso/temas/tema1/13.svg' alt='AvatarTop')
             .tarjeta.d-flex.align-items-center(style="background-color: #AFCDF5")
               .p-3
-                p.mb-0 #[b 9.] Niñas y niños a quienes de les detecta tempranamente los riesgos: #[b resultado intermedio.]
+                p.mb-0 #[b 9.] Niñas y niños a quienes se les detecta tempranamente los riesgos: #[b resultado intermedio.]
           .tarjeta-avatar-b.mb-4
             .tarjeta-avatar-b__img
               img(src='@/assets/curso/temas/tema1/14.svg' alt='AvatarTop')
@@ -259,7 +259,7 @@
         .row
           .col-md-4.mb-4.mb-md-0: img(src='@/assets/curso/temas/tema1/31.png', alt='')
           .col-md-8
-            p Esta estrategia es reconocida desde de la Declaración de Alma Ata, de acuerdo con la Conferencia Internacional sobre Atención Primaria de Salud del año 1978, y plantea la #[b gestión intersectorial articulada a una atención en salud que se acerque a los sujetos y a sus entornos, partiendo de una integración de las atenciones individuales y colectivos, así como de los diferentes niveles de complejidad de los servicios de salud y en reconocimiento de la voz de las comunidades.]
+            p Esta estrategia es reconocida desde de la Declaración de Alma-Ata, de acuerdo con la Conferencia Internacional sobre Atención Primaria de Salud del año 1978, y plantea la #[b gestión intersectorial articulada a una atención en salud que se acerque a los sujetos y a sus entornos, partiendo de una integración de las atenciones individuales y colectivos, así como de los diferentes niveles de complejidad de los servicios de salud y en reconocimiento de la voz de las comunidades.]
               br
               br
               |Esta estrategia parte de reconocer métodos, tecnologías y prácticas validadas en la evidencia disponible y socialmente aceptadas, que mejoren la gestión en los servicios de salud, aumentando su capacidad resolutiva, favoreciendo la territorialización y adscripción poblacional, así como el desarrollo de escenarios de atención multidisciplinarios e integrales en salud.
@@ -269,7 +269,7 @@
             p.mb-0 Es una #[b estrategia transversal que convoca a todos los actores y otros sectores] a concurrir en la acción anticipatoria que permite modular o evitar la aparición de enfermedades o alteraciones. Esto incluye la #[b identificación temprana] cuando se presenta y su #[b abordaje integral] para disminuir los impactos en la salud y el desarrollo a través de acciones que van desde la prevención hasta la paliación. Implica el #[b seguimiento y monitoreo de los riesgos para la salud, así como de los resultados en los sujetos hacia donde está orientada la acción.]
               br
               br
-              |Además, propicia mejorar la experiencia de los sujetos en su interacción con los servicios de salud y fortalecer la sostenibilidad del sistema. Tiene un #[b componente colectivo] que se desarrolla desde las intervenciones colectivas y está a cargo de la entidad territorial y un #[b componente individual] que está en cabeza de la Entidades Promotoras de Salud- EPS o aseguradores, que se relaciona muy estrechamente con la gestión clínica que desarrolla el prestador así como con los procesos de autocuidado por parte del individuo, extendido a su familia y comunidad.
+              |Además, propicia mejorar la experiencia de los sujetos en su interacción con los servicios de salud y fortalecer la sostenibilidad del sistema. Tiene un #[b componente colectivo] que se desarrolla desde las intervenciones colectivas y está a cargo de la entidad territorial y un #[b componente individual] que está en cabeza de las Entidades Promotoras de Salud- EPS o aseguradores, que se relaciona muy estrechamente con la gestión clínica que desarrolla el prestador así como con los procesos de autocuidado por parte del individuo, extendido a su familia y comunidad.
               br
               br
               |La siguiente figura representa el proceso para la Gestión Integral del Riesgo en Salud:
@@ -278,6 +278,10 @@
               a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
                 i.fas.fa-search
                 .indicador--click(v-if="mostrarIndicador")
+
+              .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+                h5 Figura 5
+                span Ruta de atención
               img(src='@/assets/curso/temas/tema1/33.svg', alt='')
               figcation Nota. Tomado de MinSalud (2016, p.61).
 
@@ -289,6 +293,7 @@
               br
               br
               |Las personas están determinadas por varias de estas condiciones, lo cual es abordado desde el enfoque interseccional que, a su vez, permite entender los procesos de salud – enfermedad. Las necesidades asociadas y las respuestas que cada uno puede dar frente a las situaciones son diferentes si vive en zona rural o urbana, es mujer u hombre, indígena o sin pertenencia étnica, joven a adulto mayor, si presentó o no una discapacidad, además del contexto socioeconómico y relacional (redes de apoyo), que se tengan con sus familias.
+
       .py-4.py-md-5(titulo="Enfoque de cuidado de la salud")
         .row
           .col-md-6.mb-4.mb-md-0
@@ -301,8 +306,13 @@
                 a.boton.color-acento-botones.indicador__container(@click="modal2 = true")
                   i.fas.fa-search
                   .indicador--click(v-if="mostrarIndicador")
+
+                .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+                  h5 Figura 6
+                  span Estrategia del cuidado
                 img(src='@/assets/curso/temas/tema1/34.svg', alt='')
                 figcaption Nota. Tomado de MinSalud (2016, p.38).
+
     ModalA(:abrir-modal.sync="modal1")
       img(src='@/assets/curso/temas/tema1/33m.svg', alt='')
     ModalA(:abrir-modal.sync="modal2")
@@ -355,7 +365,7 @@
           .col-lg-7.mb-4.mb-md-0
             h5 Enfoque de género
 
-            p Considera las diferentes oportunidades que pueden tener mujeres y hombres, sus interrelaciones y el contexto socio cultural en el cual se presentan. Para este enfoque se tienen en cuenta los roles que se pueden presentar en la sociedad y que son asignados por esta para generar igualdad y sin discriminación, garantizar los derechos y los enfoques que se integran como el diferencial, salud familiar y desarrollo humano.
+            p Considera las diferentes oportunidades que pueden tener mujeres y hombres, sus interrelaciones y el contexto sociocultural en el cual se presentan. Para este enfoque se tienen en cuenta los roles que se pueden presentar en la sociedad y que son asignados por esta para generar igualdad y sin discriminación, garantizar los derechos y los enfoques que se integran como el diferencial, salud familiar y desarrollo humano.
           .col-lg-5
             figure
               img(src='@/assets/curso/temas/tema1/40.png', alt='')
@@ -384,13 +394,13 @@
       .col-lg-10(data-aos="zoom-in")
         .tarjeta.p-5(style="background-color:#FFE0DD ")
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-            h5 Figura 5.
+            h5 Figura 7.
             span Gráfica Marco Conceptual PAIS (Política de Atención Integral en Salud)
           .row.justify-content-center.mb-5
             .col-lg-8
               img(src='@/assets/curso/temas/tema1/44.svg', alt='La imagen presenta el marco conceptual de la Política de Atención Integral en Salud, donde se presentan la entidad territorial, las EPS y las IPS.')
               figcaption Nota. Tomado de MinSalud (2016, p.31)
-    p.mb-3(data-aos='fade-right') La familia, por su parte, es el núcleo del sistema con base en la Atención Primaria que se definen con enfoque en Salud Familiar, con visión de abordar los diferentes riesgos y el cuidado, que permiten a su vez mantener las condiciones adecuadas en la población. Dentro de este modelo de Política de Atención, el elemento que enlaza a los otros tres elementos (Entidad territorial, IPS-RED y EPS) es la Gestión Integral en Salud, que aborda de manera colectiva, todos los riesgos encontrados en ambas partes, como lo indica el Plan Decenal de Salud Pública.
+    p.mb-3(data-aos='fade-right') La familia, por su parte, es el núcleo del sistema con base en la Atención Primaria, que se definen con enfoque en Salud Familiar, con visión de abordar los diferentes riesgos y el cuidado, que permiten a su vez mantener las condiciones adecuadas en la población. Dentro de este modelo de Política de Atención, el elemento que enlaza a los otros tres elementos (Entidad territorial, IPS-RED y EPS) es la Gestión Integral en Salud, que aborda de manera colectiva, todos los riesgos encontrados en ambas partes, como lo indica el Plan Decenal de Salud Pública.
       br
       br
       |La Política de Atención Integral en Salud incluye como beneficios:
@@ -429,7 +439,7 @@
       .col-lg-10(data-aos="fade-left")
         p Las intervenciones individuales tienen el propósito de fortalecer las capacidades para el cuidado de la salud de las personas, minimizar el riesgo de enfermar o derivar oportunamente a rutas de grupo de riesgo o a la atención en salud requerido para el manejo de su condición de salud. A continuación, se describen las intervenciones en primera infancia:
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-      h5 Figura 6.
+      h5 Figura 8.
       span Tabla de Atención Individual RPMS
     figure.mb-5(data-aos="zoom-in")
       img(src='@/assets/curso/temas/tema1/49.png', alt='')
@@ -457,10 +467,7 @@
     p.mb-5(data-aos='fade-right') Sumado a esto, en la siguiente figura, se podrán identificar los valores de un contexto determinado en atención a la salud de la primera infancia y cuáles son esos aspectos que se deben tener en cuenta con las intervenciones. Cada uno de estos permite que sea valorado no solo en un proceso biológico sino además psicológico o social, sobre qué respuestas pueden estar reflejadas en cada individuo.
     .row.justify-content-center.mb-5
       .col-lg-10
-        .tarjeta.p-5(style="background-color:#FFE0DD ")
-          .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-            h5 Figura 7.
-            span Identificación y valores en EAD-3
+        .tarjeta.p-5(style="background-color:#FFE0DD ")          
           .tabla-b.color-primario.mb-5
             .tabla-b__header.rounded-3
               h5.mb-0 Niveles del lenguaje
@@ -518,7 +525,7 @@
                     li
                       i.fas.fa-circle.fa-xs(style="font-size: 5px")
                       | Verificar atenciones de protección específica en el marco de la RPMS (esquema de vacunación, suministro de micronutrientes y desparasitación intestinal, atenciones de salud bucal, entre otros).
-          .tabla-b.color-primario.mb-5
+          .tabla-b.color-primario
             .tabla-b__header.rounded-3
               h5.mb-0 Potenciar capacidades
             table
@@ -613,7 +620,7 @@
               |• Niñas o niños #[b víctimas de vulneración o violación de derechos humanos] con o sin proceso de restablecimiento de derechos en curso (por ejemplo, víctimas de violencia física, psicológica, sexual, negligencia y abandono en el ámbito familiar, escolar, institucional, comunitario, etc., intrafamiliar o testigos de violencia intrafamiliar, abandonados, explotados, secuestrados, traficados o expuestos al consumo de alcohol u otras sustancias psicoactivas).
               br
               br
-              |• Niñas o niños perteneciente a un hogar en #[b pobreza extrema o en situación de calle.]
+              |• Niñas o niños pertenecientes a un hogar en #[b pobreza extrema o en situación de calle.]
       .tarjeta.rounded-3.color-acento-contenido.p-2(data-aos="fade-right")
         h4.mb-0.mx-2.text-center Condiciones crónicas - discapacidad
       .p-4(style="background-color: #AFCDF5 ").mb-5(data-aos="zoom-in")
@@ -623,7 +630,7 @@
             p • #[b Condición crónica] (neurológica, cardiovascular, respiratoria, metabólica, endocrinológica, gastrointestinal, renal o de otro tipo).
               br
               br
-              |• #[b Discapacidad] (de cualquier tipo o con alto riesgo de presentarla por una condición identificada, por ejemplo, anotia, anoftalmia, agenesia de extremidades, resultados de estudio metabólico para enfermedades neurodegenerativas, etc.).
+              |• #[b Discapacidad] (de cualquier tipo o con alto riesgo de presentarla por una condición identificada, por ejemplo, anotia, anoftalmía, agenesia de extremidades, resultados de estudio metabólico para enfermedades neurodegenerativas, etc.).
               br
               br
               |• Niña(o) con necesidad de #[b tratamiento con medicamentos de forma crónica.]
@@ -678,7 +685,7 @@
                 .numero
                   p.h2.m-4 5
               .col-lg-10
-                p Alimentación en la niña(o) menor de 6 meses haciendo énfasis en la lactancia materna (indagar lactancia materna no exclusiva - Indagando si el niña(o) ha recibido cualquier líquido, alimento o leche diferente a la materna el día o noche anterior). Alimentación de la niña(o) mayor de 6 meses indagar sobre consumo y hábitos alimentarios indicando tipo de alimentos, frecuencia de consumo, cantidad, forma de preparación y texturas, adición de sal y azúcar y tipo de alimentos, para lo cual puede ser útil la indagación de la alimentación en las últimas 24 horas. Verificar si después del año ya consume la dieta familiar.
+                p Alimentación en la niña(o) menor de 6 meses haciendo énfasis en la lactancia materna (indagar lactancia materna no exclusiva - Indagando si la niña(o) ha recibido cualquier líquido, alimento o leche diferente a la materna el día o noche anterior). Alimentación de la niña(o) mayor de 6 meses indagar sobre consumo y hábitos alimentarios indicando tipo de alimentos, frecuencia de consumo, cantidad, forma de preparación y texturas, adición de sal y azúcar y tipo de alimentos, para lo cual puede ser útil la indagación de la alimentación en las últimas 24 horas. Verificar si después del año ya consume la dieta familiar.
           .col-lg-5.col-8: img(src='@/assets/curso/temas/tema1/65.png', alt='')
         .row.mx-3.justify-content-center
           .col-lg-7.mb-4.mb-md-0
@@ -725,23 +732,215 @@
               .col-lg-10
                 p Valoración o actualización de la conformación y dinámica de la familia a través del Familiograma, indagar sobre las capacidades y recursos personales y familiares que inciden en el cuidado de la salud familiar, evaluar el grado de satisfacción de la funcionalidad familiar, a través del #[b Apgar familiar.]
           .col-lg-5.col-8: img(src='@/assets/curso/temas/tema1/70.png', alt='')
-    .row.justify-content-center.mb-5
-      .col-lg-10
-        .tarjeta.color-primario.p-4
-          .row.justify-content-around.align-items-center
-            .col-auto
-              img(src="@/assets/curso/temas/tema1/71.svg").img65
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h4.mb-1 Valores hematológicos
-                  p.mb-0.text-small Conozca cómo se relacionan los valores de hemoglobina y hematocrito de acuerdo con la edad.
-                .col-sm-auto
-                  a.boton.color-acento-botones(@click="modal3 = true")
-                    span.text-white Ver tabla 
-                    i.fas.fa-link(style="color: white")
-    ModalA(:abrir-modal.sync="modal3")
-      img(src='@/assets/curso/temas/tema1/72.svg', alt='')
+
+    p  En la siguiente tabla podrá establecer como se relacionan los valores de hemoglobina y hematocrito de acuerdo con la edad.
+
+    .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+      h5 Tabla 1. 
+      span Valores hematológicos normales en niños y   adolescentes en sangre periférica
+
+    .tabla-a.color-acento-botones.mb-5 
+      table      
+    
+      thead
+        tr
+          th(colspan='13') Valores hematológicos normales en niños y   adolescentes en sangre periférica
+      tbody.text-center
+        tr.bold
+          td  
+          td(colspan='2') Hb (g/dl)
+          td(colspan='2') Hcto ( %)
+          td(colspan='2') Hemat&iacute;es (millones/ul)
+          td(colspan='2') VCM (fl)
+          td(colspan='2') HCM (pg)
+          td(colspan='2') CHCM (g/dL)
+        tr.bold
+          td Edad
+          td Media
+          td 2 DE
+          td Media
+          td 2DE
+          td Media
+          td 2DE
+          td Media
+          td 2DE
+          td Media
+          td 2DE
+          td Media
+          td 2DE
+        tr
+          td.bold Nacimiento*
+          td 16.5
+          td 13.5
+          td 51
+          td 42
+          td 4.7
+          td 3.9
+          td 108
+          td 98
+          td 34
+          td 31
+          td 33
+          td 30
+        tr
+          td.bold 1-3 D&iacute;as
+          td 18.5
+          td 14.5
+          td 56
+          td 45
+          td 5.3
+          td 4.0
+          td 108
+          td 95
+          td 34
+          td 31
+          td 33
+          td 29
+        tr
+          td.bold 1 Semana
+          td 17.5
+          td 13.5
+          td 54
+          td 42
+          td 5.1
+          td 3.9
+          td 107
+          td 88
+          td 34
+          td 28
+          td 33
+          td 28
+        tr
+          td.bold 2 Semanas
+          td 16.5
+          td 12.5
+          td 51
+          td 39
+          td 4.9
+          td 3.6
+          td 105
+          td 86
+          td 34
+          td 28
+          td 33
+          td 28
+        tr
+          td.bold 1 Mes
+          td 14.0
+          td 10.0
+          td 43
+          td 31
+          td 4.2
+          td 3.0
+          td 104
+          td 85
+          td 34
+          td 28
+          td 33
+          td 29
+        tr
+          td.bold 2 Meses
+          td 11.5
+          td 9.0
+          td 35
+          td 28
+          td 3.8
+          td 2.7
+          td 96
+          td 77
+          td 30
+          td 26
+          td 33
+          td 29
+        tr
+          td.bold 3-6 Meses
+          td 11.5
+          td 9.5
+          td 35
+          td 29
+          td 3.8
+          td 3.1
+          td 91
+          td 74
+          td 30
+          td 25
+          td 33
+          td 30
+        tr
+          td.bold 6-24 Meses
+          td 12
+          td 10.5
+          td 36
+          td 33
+          td 4.5
+          td 3.7
+          td 78
+          td 70
+          td 27
+          td 23
+          td 33
+          td 30
+        tr
+          td.bold 2-6 A&ntilde;os
+          td 12.5
+          td 11.5
+          td 40
+          td 35
+          td 4.6
+          td 3.9
+          td 81
+          td 75
+          td 27
+          td 24
+          td 34
+          td 31
+        tr
+          td.bold 6-12 A&ntilde;os
+          td 13.5
+          td 11.5
+          td 40
+          td 35
+          td 4.6
+          td 4.0
+          td 86
+          td 77
+          td 29
+          td 25
+          td 34
+          td 31
+        tr
+          td.bold 12 A&ntilde;os -&nbsp;&nbsp;&nbsp;Mujer
+          td 14.0
+          td 12.0
+          td 41
+          td 36
+          td 4.6
+          td 4.1
+          td 90
+          td 78
+          td 30
+          td 25
+          td 34
+          td 31
+        tr
+          td.bold 18 A&ntilde;os -&nbsp;&nbsp;&nbsp;Hombre
+          td 14.5
+          td 13.0
+          td 43
+          td 37
+          td 4.9
+          td 4.5
+          td 88
+          td 78
+          td 30
+          td 25
+          td 34
+          td 31
+        tr
+          td(colspan='13')
+            | Sangre de cord&oacute;n. CHCM: concentraci&oacute;n de la&nbsp;&nbsp;&nbsp;hemoglobina corpuscular media; DE: desviaci&oacute;n est&aacute;ndar; Hb: hemoglobina; HCM:&nbsp;&nbsp;&nbsp;hemoglobina corpuscular media; Hcto: hematocrito; VCM: volumen corpuscular&nbsp;&nbsp;&nbsp;medio.
+
+    
     p.mb-5(data-aos='fade-right') Dentro de la Atención Integral en Salud también se debe tener en cuenta el examen físico completo en la primera infancia. Este debe realizarse con todas las técnicas semiológicas, junto con el examen físico céfalo caudal, de manera completa.
       br
       br
@@ -752,8 +951,11 @@
       .py-4.py-md-5(titulo="Valores de frecuencia cardiaca ")
         .row.justify-content-center
           .col-md-10
-            .tabla-b.color-acento-contenido.mb-5
-              
+            .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+              h5 Tabla 2. 
+              span Valores de frecuencia cardiaca en función de la edad
+
+            .tabla-b.color-acento-contenido.mb-5              
               table
                 thead
                   th.text-center.h3(style="background-color: #FFA69D" colspan="4") VALORES DE FRECUENCIA CARDIACA EN FUNCIÓN DE LA EDAD
@@ -788,6 +990,9 @@
         .row.justify-content-center
           .col-md-10
             .tabla-b.color-acento-contenido.mb-5
+              .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+                h5 Tabla 3. 
+                span Valores de frecuencia respiratoria en función de la edad
               
               table.text-center
                 caption Nota. Ministerio de Salud y Protección Social. (2021).
@@ -819,6 +1024,9 @@
         .row.justify-content-center
           .col-md-10
             .tabla-b.color-acento-contenido.mb-5
+              .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+                h5 Tabla 4. 
+                span Valores de saturación de oxígeno
               
               table.text-center
                 caption Nota. Ministerio de Salud y Protección Social. (2021).
@@ -846,6 +1054,10 @@
         .row.justify-content-center
           .col-md-10
             .tabla-b.color-acento-contenido.mb-5
+
+              .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+                h5 Tabla 5. 
+                span Definición de hipotensión por edad y presión arterial sistólica
               
               table.text-center
                 thead
@@ -866,7 +1078,7 @@
                   td Niños > 10 años
                   td < 90
     p.mb-5(data-aos='fade-right') Adicionalmente, se deben tener en cuenta otros aspectos particulares a realizar en cada consulta:
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-4
       .col-lg-8.mb-lg-0.mb-3(data-aos="fade-right")
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
           .row(titulo="Valoración del desarrollo")
@@ -914,21 +1126,14 @@
                 br
                 |Las alteraciones de la salud mental en la primera infancia tienen su expresión principal en los procesos del desarrollo; aunque pueden presentarse alteraciones en el apego, así como experiencias adversas en la niñez, manifestaciones iniciales de trastornos del espectro autista, ansiedad, depresión, entre otras. Debe considerarse la valoración del riesgo psicosocial del cuidador como factor clave e indicador de riesgo de la salud mental en las niñas y niños en primera infancia.
       .col-lg-4.d-lg-block.d-none(data-aos="fade-left"): img(src='@/assets/curso/temas/tema1/79.png', alt='')
-    .row.justify-content-center.mb-5
-      .col-lg-10
-        .tarjeta.color-primario.p-4
-          .row.justify-content-around.align-items-center
-            .col-auto
-              img(src="@/assets/curso/temas/tema1/80.svg").img65
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h4.mb-1 Valoración de la salud auditiva y comunicativa
-                  p.mb-0.text-small Durante la consulta se debe aplicar el cuestionario VALE. El siguiente video expone la aplicación de este instrumento.
-                .col-sm-auto
-                  a.boton.color-acento-botones(href='https://www.youtube.com/watch?v=hqgNAfBtYII&feature=youtu.be' target="_blank")
-                    span.text-white Ver video
-                    i.fas.fa-video(style="color: white") 
+     
+
+    p.mb-5 Durante la consulta se debe aplicar el cuestionario VALE. El siguiente video expone la aplicación de este instrumento.
+
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/hqgNAfBtYII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Interpretación de resultados Escala Abreviada de Desarrollo 3 (EAD-3).
                 
     .p-3(style="background-color: #E3EEFC").mb-4
       .row.justify-content-center
@@ -993,10 +1198,7 @@
             figure
               img(src='@/assets/curso/temas/tema1/88.png', alt='')
     p.mb-5(data-aos='fade-right') Sumado a esto, también se deben tener en cuenta los instrumentos, insumos y dispositivos, para dar cumplimiento a los estándares de habilitación para la consulta de pediatría, medicina general, medicina familiar o enfermería, como lo son:
-    .mn.p-5(style="background-color: #FFE0DD").mb-5
-      .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-        h5 Figura 8.
-        span Instrumentos, insumos y dispositivos
+    .mn.p-5(style="background-color: #FFE0DD").mb-5     
       .row.justify-content-center.mb-5
         .col-lg-4.mb-lg-0.mb-3
           div(style="background-color:#AFCDF5; border-radius: 10px 10px 0px 0px ").p-3
@@ -1066,7 +1268,7 @@
           p Las políticas públicas de una sociedad deben orientar sus objetivos a la promoción de un cuidado cariñoso y sensible que vele por la salud y nutrición de las niñas y los niños, y que sea capaz de responder a sus necesidades, su seguridad y protección, y que promuevan el aprendizaje desde muy temprana edad, favoreciendo su desarrollo integral, orientado a una promoción no solo individual, sino colectiva, que apunte al mejoramiento de sus condiciones de vida a largo plazo.
     .row.justify-content-center.mb-5
       .col-lg-8.mb-lg-0.mb-3(data-aos="fade-right")
-        p Finalmente, de acuerdo con la publicación de la Comisión de Lancet, en el año 2020, Un futuro para los niños del mundo, dentro del desarrollo infantil es importante analizar los determinantes sociales como condiciones que en muchos casos pueden establecer un estado de desigualdad, además de propiciar ambientes y sistemas donde el desarrollo se ve amenazado por circunstancias adversas que no propicien el adecuado desarrollo del individuo, tales como inequidad en las posiciones sociales, acceso a la educación, bajos ingresos, sexo femenino, difícil acceso a los sistemas de salud y la desigualdad de la distribución de los recursos.
+        p Finalmente, de acuerdo con la publicación de la Comisión de Lancet, en el año 2020, Un futuro para los niños del mundo, dentro del desarrollo infantil, es importante analizar los determinantes sociales como condiciones que en muchos casos pueden establecer un estado de desigualdad, además de propiciar ambientes y sistemas donde el desarrollo se ve amenazado por circunstancias adversas que no propicien el adecuado desarrollo del individuo, tales como inequidad en las posiciones sociales, acceso a la educación, bajos ingresos, sexo femenino, difícil acceso a los sistemas de salud y la desigualdad de la distribución de los recursos.
           br
           br
           |A pesar de los esfuerzos que han realizado los países en mejorar la supervivencia, la nutrición y la educación, en las últimas décadas, el futuro de las niñas y los niños se ve directamente afectado por condiciones como el cambio climático, la degradación ecológica, la migración, las situaciones de conflicto armado, así como persistencia de las inequidades sociales.
@@ -1084,7 +1286,7 @@
       .row.justify-content-center
         .col-lg-1.mb-lg-0.mb-3.col-4: img(src='@/assets/curso/temas/tema1/94.svg', alt='')
         .col-lg-11
-          p En coherencia con la evidencia disponible, se ha corroborado que las inversiones en primera infancia son las más costo efectivas por la rentabilidad económica que genera para los países que las realizan; teniendo en cuenta que la primera infancia es el periodo de mayor plasticidad cerebral y neurogénesis, y se constituye en un periodo crítico para el desarrollo de habilidades cognitivas y psicosociales que son fundamentales para el aprendizaje, mejorando el rendimiento escolar y la calidad de la vida adulta en general. Debe considerase una prioridad la inversión en salud y educación de la niñez, así como propender por la protección de sus derechos. #[b Intervenir en la infancia tiene efectos intergeneracionales para toda la vida.]
+          p En coherencia con la evidencia disponible, se ha corroborado que las inversiones en primera infancia son las más costo efectivas por la rentabilidad económica que genera para los países que las realizan; teniendo en cuenta que la primera infancia es el periodo de mayor plasticidad cerebral y neurogénesis, y se constituye en un periodo crítico para el desarrollo de habilidades cognitivas y psicosociales que son fundamentales para el aprendizaje, mejorando el rendimiento escolar y la calidad de la vida adulta en general. Debe considerarse una prioridad la inversión en salud y educación de la niñez, así como propender por la protección de sus derechos. #[b Intervenir en la infancia tiene efectos intergeneracionales para toda la vida.]
             br
             br
             |En los procesos de la valoración del desarrollo de las niñas y los niños deben tomarse en cuenta como importante factor contribuyente, los determinantes sociales, marcadores fundamentales de los resultados positivos o negativos al final del proceso

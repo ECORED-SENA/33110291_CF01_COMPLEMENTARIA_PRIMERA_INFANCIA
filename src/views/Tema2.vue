@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 2
       h1 Generalidades del desarrollo infantil
-    p.mb-5(data-aos='fade-right') El desarrollo, es considerado un proceso dinámico que implica la continua interacción entre factores biológicos, psicológicos y sociales; es así que la primera infancia es la etapa de mayor exigencia que enfrenta el cerebro, ocurriendo desde el periodo embrionario y los primeros años de vida, teniendo una influencia trascendental para. El desarrollo del niño, debido a que es el período donde se adquieren habilidades perceptivas, motrices, lingüísticas y sociales, que le permitirán una adecuada interacción social. (Ministerio de Salud y Protección Social, 2021)
+    p.mb-5(data-aos='fade-right') El desarrollo es considerado un proceso dinámico que implica la continua interacción entre factores biológicos, psicológicos y sociales; es así que la primera infancia es la etapa de mayor exigencia que enfrenta el cerebro, ocurriendo desde el periodo embrionario y los primeros años de vida, teniendo una influencia trascendental para. El desarrollo del niño, debido a que es el período donde se adquieren habilidades perceptivas, motrices, lingüísticas y sociales, que le permitirán una adecuada interacción social. (Ministerio de Salud y Protección Social, 2021)
     .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in")
       .bloque-texto-g__img(
         :style="{'background-image':`url(${require('@/assets/curso/temas/tema2/1.jpg')})`}"
@@ -31,7 +31,7 @@
               i.fas.fa-check
               p.mb-0.fw-bold Desarrollo social, emocional y conductual.
       .col-lg-7(data-aos="fade-left")
-        p En una publicación reciente de la Organización Mundial de la Salud- OMS (2021), se estima que 1 de cada 100 niños cursa con trastorno de espectro autista. En Colombia se ha logrado establecer, según ciertos estudios, que el trastorno de déficit de atención e hiperactividad -TDAH, tiene una alta prevalencia en la población infantil. En la caracterización realizada por Julián Carvajal-Castrillón et.al (2014), se encontró que el segundo diagnóstico principal en el grupo de niñas y niños entre cero y cinco años, fue el trastorno del espectro autista (TEA); adicionalmente, el retraso mental leve, correspondió al principal diagnóstico de la población infantil de 6 a 11 años; este hallazgo probablemente se explica porque en esta etapa del desarrollo evolutivo se da el inicio a la educación básica en Colombia, por tanto, puede detectarse en los establecimiento educativos por sus inherentes alteraciones en el aprendizaje.
+        p En una publicación reciente de la Organización Mundial de la Salud- OMS (2021), se estima que 1 de cada 100 niños cursa con trastorno de espectro autista. En Colombia se ha logrado establecer, según ciertos estudios, que el trastorno de déficit de atención e hiperactividad -TDAH, tiene una alta prevalencia en la población infantil. En la caracterización realizada por Julián Carvajal-Castrillón et.al (2014), se encontró que el segundo diagnóstico principal en el grupo de niñas y niños entre cero y cinco años, fue el trastorno del espectro autista (TEA); adicionalmente, el retraso mental leve, correspondió al principal diagnóstico de la población infantil de 6 a 11 años; este hallazgo probablemente se explica porque en esta etapa del desarrollo evolutivo se da el inicio a la educación básica en Colombia, por tanto, puede detectarse en los establecimientos educativos por sus inherentes alteraciones en el aprendizaje.
     p.mb-5(data-aos='fade-right') Es un proceso que sucede en el mundo de lo social. Es un proceso de cambio continuo que implica mayor nivel de complejidad en la esfera motora, cognitiva y social y que resulta de la interacción con el mundo físico y con el mundo social: su resultado es multifactorial.
     .p-3(style="background-color: #E3EEFC").mb-4
       .row.justify-content-center
@@ -85,9 +85,8 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Tabla 1 
-          br
-          span.fst-italic Sistemas neurosensoriales con periodos críticos tempranos
+          h5 Tabla 6.
+          span Sistemas neurosensoriales con periodos críticos tempranos
         .tabla-b.mb-5.tabla-editada
           .tabla-b__header(style="background-color: #FFA69D")
             h5.mb-0(style="color: #12263F") Sistemas neurosensoriales con periodos críticos tempranos
@@ -119,7 +118,7 @@
             tr
               td(style="background-color: #FFE0DD " colspan="2").fw-bold 6. Sistema visual
               td Visión.
-    p.mb-5(data-aos='fade-right') En la tabla anterior, se evidencian diferentes sistemas sensoriales que están sujetos al término de área críticas y cuyo cierre se hace tempranamente, a excepción de la vía visual y auditiva, que son las últimas áreas neurológicas en cerrar su desarrollo. La falta de estímulos puede inducir la degeneración sináptica y evitar la organización celular necesaria para el normal desarrollo de esa red neuronal.
+    p.mb-5(data-aos='fade-right') En la tabla anterior, se evidencian diferentes sistemas sensoriales que están sujetos al término de áreas críticas y cuyo cierre se hace tempranamente, a excepción de la vía visual y auditiva, que son las últimas áreas neurológicas en cerrar su desarrollo. La falta de estímulos puede inducir la degeneración sináptica y evitar la organización celular necesaria para el normal desarrollo de esa red neuronal.
     .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in")
       .bloque-texto-g__img(
         :style="{'background-image':`url(${require('@/assets/curso/temas/tema2/8.jpg')})`}"
@@ -160,26 +159,26 @@
           img(src='@/assets/curso/temas/tema2/13.jpg', alt='').w-100
           .p-4
             h5 Plasticidad expectante de la experiencia
-            p.mb-0(data-aos='fade-right') Hace referencia a un proceso de sinaptogénesis que dependerá de la recepción de estímulos para su mantenimiento, evitando así el proceso de degeneración; en este caso particular, se refiere al concepto de periodos críticos. Por ejemplo, en el área visual, si no hay estímulos visuales que producen el disparo continuo de esta sinapsis, estas sufrirán un proceso de degeneración y poda sináptica y una vez se cierre el periodo crítico la vía visual no podrá desarrollarse.
+            p.mb-0(data-aos='fade-right') Hace referencia a un proceso de sinaptogénesis que dependerá de la recepción de estímulos para su mantenimiento, evitando así el proceso de degeneración; en este caso particular, se refiere al concepto de periodos críticos. Por ejemplo, en el área visual, si no hay estímulos visuales que producen el disparo continuo de esta sinapsis, estas sufrirán un proceso de degeneración y poda sináptica y una vez se cierre el periodo crítico, la vía visual no podrá desarrollarse.
       .col-lg-6.mb-lg-0.mb-3
         .tarjeta.oveflow-hidden(style="background-color:#FFE0DD ")
           img(src='@/assets/curso/temas/tema2/14.jpg', alt='').w-100
           .p-4
             h5 Plasticidad dependiente de la experiencia
-            p.mb-0(data-aos='fade-right') Esta sugiere cómo los estímulos externos tanto en calidad como en cantidad, sean estos positivos o negativos, podrán contribuir a la especialización y consolidación de los circuitos neuronales, por lo tanto el resultado último del desarrollo cognitivo de un individuo se gesta incluso desde la vida prenatal, dónde se nace con una información genética previamente determinada pero que va a estar sometida a un fino refinamiento por el ambiente con las experiencias positivas o negativas, las emociones y el aprendizaje temprano modulando el resultado final en cada individuo.
+            p.mb-0(data-aos='fade-right') Esta sugiere cómo los estímulos externos, tanto en calidad como en cantidad, sean estos positivos o negativos, podrán contribuir a la especialización y consolidación de los circuitos neuronales, por lo tanto, el resultado último del desarrollo cognitivo de un individuo se gesta incluso desde la vida prenatal, dónde se nace con una información genética previamente determinada, pero que va a estar sometida a un fino refinamiento por el ambiente con las experiencias positivas o negativas, las emociones y el aprendizaje temprano modulando el resultado final en cada individuo.
     p.mb-5(data-aos='fade-right') La forma como se suceden esos procesos de mielinización, sinaptogénesis y formación de redes neuronales en la etapa posnatal temprana, explican en parte los principios básicos del desarrollo de motor grueso y fino en los primeros años, los cuales ocurren de forma cefalocaudal y de proximal a distal respectivamente, tal como se presenta en la figura.
     .row.justify-content-center.mb-5
       .col-lg-10
         .tarjeta.p-5(style="background-color:#E3EEFC ")
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-            h5 Figura 10. 
+            h5 Figura 11. 
             span Procesos responsables del desarrollo neurológico.
           img.d-lg-block.d-none(src='@/assets/curso/temas/tema2/15.svg', alt='')
           img.d-lg-none.d-block(src='@/assets/curso/temas/tema2/16.svg', alt='')
     p.mb-5(data-aos='fade-right') La evidencia ha demostrado en estudios en humanos y en roedores, que la exposición prenatal a la adversidad (estrés materno, bajos niveles de cuidado posnatal, exposiciones a violencias) alterna la metilación del ADN y el gen promotor de los receptores de glucocorticoides.
       br
       br
-      |La exposición a estas situaciones adversas o “estrés toxico prenatal” se asocia con incremento en la metilación de los receptores de los glucocorticoides y disminución en la expresión de estos genes, que en consecuencia genera una respuesta individual alterada al estrés, llevando consigo a un riesgo incrementado de enfermedades entre ellas de salud mental, en la infancia o en la vida adulta.
+      |La exposición a estas situaciones adversas o “estrés tóxico prenatal” se asocia con incremento en la metilación de los receptores de los glucocorticoides y disminución en la expresión de estos genes, que en consecuencia genera una respuesta individual alterada al estrés, llevando consigo a un riesgo incrementado de enfermedades entre ellas de salud mental, en la infancia o en la vida adulta.
     .p-3(style="background-color: #E3EEFC").mb-4
       .row.justify-content-center
         .col-lg-1.mb-lg-0.mb-3.col-4: img(src='@/assets/curso/temas/tema2/17.svg', alt='')

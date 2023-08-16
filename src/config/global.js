@@ -112,7 +112,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/33110291_CF01_DU.pdf',
+        download: 'downloads/33110291_CF01_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -181,7 +181,7 @@ export default {
     {
       termino: 'Lineamiento',
       significado:
-        'documento en el cual se establecen directrices especificas o políticas internas asociadas a un tema, proceso o método en particular.',
+        'documento en el cual se establecen directrices específicas o políticas internas asociadas a un tema, proceso o método en particular.',
     },
     {
       termino: 'Morbilidad',
